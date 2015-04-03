@@ -1,0 +1,11 @@
+﻿<ReferenceToInformation xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <GeneratedByProcessID i:nil="true" />
+  <ID>fc80a767-1c11-45d7-af2c-7d6728657c54</ID>
+  <MasterETag i:nil="true" />
+  <Name>ReferenceToInformation</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/ReferenceToInformation/fc80a767-1c11-45d7-af2c-7d6728657c54</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <Title>shattered-diamond.jpg</Title>
+  <URL>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Image/7f0d3e89-27ed-4956-94bf-14ee15e4b34e</URL>
+</ReferenceToInformation>

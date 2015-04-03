@@ -1,0 +1,102 @@
+{"users": [
+    {
+        "firstName": "Ray",
+        "lastName": "Villalobos",
+        "joined": {
+            "month": "January",
+            "day": 12,
+            "year": 2012
+        }
+    },
+    {
+        "firstName": "John",
+        "lastName": "Jones",
+        "joined": {
+            "month": "April",
+            "day": 28,
+            "year": 2010
+        }
+    }
+], "content": [
+    {
+        "id": "0001",
+        "title": "Edward Scissorhands",
+        "excerpt": "An illustration by DudeX",
+        "image": "images\/illustration1.jpg",
+        "article_text": "<p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p>",
+        "content_type": "illustrations"
+    },
+    {
+        "id": "0002",
+        "title": "Painting one",
+        "excerpt": "A Painting by DudeX",
+        "image": "images\/painting1.jpg",
+        "article_text": "<p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p><p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p>",
+        "content_type": "paintings"
+    },
+    {
+        "id": "0003",
+        "title": "Portrait nice",
+        "excerpt": "A portrait by DudeX",
+        "image": "images\/portrait1.jpg",
+        "article_text": "<p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p><p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p>",
+        "content_type": "portraits"
+    },
+    {
+        "id": "0004",
+        "title": "Movie Criterion",
+        "excerpt": "A cult classic directed by DudeX",
+        "article_text": "<p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p>",
+        "image": "images\/movie1.jpg",
+        "content_type": "movies"
+    },
+    {
+        "id": "0005",
+        "title": "Nice illustration",
+        "excerpt": "An illustration by DudeII",
+        "image": "images\/illustration2.jpg",
+        "article_text": "<p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p>",
+        "content_type": "illustrations"
+    },
+    {
+        "id": "0006",
+        "title": "Deux Pintoresque",
+        "excerpt": "A Painting by DudeII",
+        "image": "images\/painting2.jpg",
+        "article_text": "<p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p>",
+        "content_type": "paintings"
+    },
+    {
+        "id": "0007",
+        "title": "Yes, it's nice",
+        "excerpt": "A portrait by DudeII",
+        "image": "images\/portrait2.jpg",
+        "article_text": "<p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p>",
+        "content_type": "portraits"
+    },
+    {
+        "id": "0008",
+        "title": "Cult Classic Dos",
+        "excerpt": "A cult classic directed by DudeII",
+        "image": "images\/movie2.jpg",
+        "article_text": "<p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p>",
+        "content_type": "movies"
+    }
+], "sites": [
+    {
+        "name": "yhteismaa",
+        "url": "http:\/\/www.yhteismaa.fi\/"
+    },
+    {
+        "name": "cinemaissi",
+        "url": "http:\/\/www.cinemaissi.org\/"
+    },
+    {
+        "name": "Street Fighters",
+        "url": "http:\/\/www.streetfighters.com"
+    },
+    {
+        "name": "Arctic Monkeys",
+        "url": "http:\/\/www.arctic.com"
+    }
+]}

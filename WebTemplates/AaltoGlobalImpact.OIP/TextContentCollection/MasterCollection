@@ -1,0 +1,654 @@
+﻿<TextContentCollection xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <CollectionContent>
+    <TextContent>
+      <Author>Empty</Author>
+      <Body i:nil="true" />
+      <Categories>
+        <CollectionContent>
+          <Category>
+            <CategoryName>catGossip</CategoryName>
+            <Excerpt>Unconfirmed rumors and exciting possibilities</Excerpt>
+            <GeneratedByProcessID i:nil="true" />
+            <ID>41488504-d4d1-47e9-bc02-f9cc5c42b30c</ID>
+            <ImageData i:nil="true" />
+            <MasterETag i:nil="true" />
+            <Name>Category</Name>
+            <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+            <ParentCategory i:nil="true" />
+            <ParentCategoryID i:nil="true" />
+            <ReferenceToInformation i:nil="true" />
+            <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/41488504-d4d1-47e9-bc02-f9cc5c42b30c</RelativeLocation>
+            <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            <Title>Gossip</Title>
+          </Category>
+        </CollectionContent>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>9fdaf885-453a-41bf-a236-ddeb1007c18e</ID>
+        <IsCollectionFiltered>false</IsCollectionFiltered>
+        <MasterETag i:nil="true" />
+        <Name>CategoryCollection</Name>
+        <OrderFilterIDList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>AaltoGlobalImpact.OIP/CategoryCollection/9fdaf885-453a-41bf-a236-ddeb1007c18e</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Categories>
+      <Excerpt />
+      <GeneratedByProcessID i:nil="true" />
+      <ID>08596a49-4b7a-4de0-b690-e4fda36648f1</ID>
+      <IFrameSources i:nil="true" />
+      <ImageData>
+        <AdditionalFormatFileExt>.png</AdditionalFormatFileExt>
+        <ContentLength>193781</ContentLength>
+        <FileExt>.png</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>2150bff2-6169-4f2c-a64d-5211a5d76e6a</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName i:nil="true" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/2150bff2-6169-4f2c-a64d-5211a5d76e6a.png</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </ImageData>
+      <Locations i:nil="true" />
+      <MasterETag>"0x8D1551E5ACB79C0"</MasterETag>
+      <Name>TextContent</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <Published>2014-05-16T13:33:53.922+00:00</Published>
+      <RawHtmlContent>&lt;p&gt;
+	Here we go again! !!&lt;/p&gt;
+</RawHtmlContent>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/TextContent/08596a49-4b7a-4de0-b690-e4fda36648f1</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <SortOrderNumber>0</SortOrderNumber>
+      <SubTitle i:nil="true" />
+      <Title>Sauna safari</Title>
+    </TextContent>
+    <TextContent>
+      <Author />
+      <Body i:nil="true" />
+      <Categories i:nil="true" />
+      <Excerpt />
+      <GeneratedByProcessID i:nil="true" />
+      <ID>0b80f00e-a1f5-4eff-9eaf-b2dd3d50a790</ID>
+      <IFrameSources i:nil="true" />
+      <ImageData>
+        <AdditionalFormatFileExt>.png</AdditionalFormatFileExt>
+        <ContentLength>480141</ContentLength>
+        <FileExt>.png</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>a5da98cc-5087-474e-a141-61db04e910c9</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName i:nil="true" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/a5da98cc-5087-474e-a141-61db04e910c9.png</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </ImageData>
+      <Locations i:nil="true" />
+      <MasterETag>"0x8D1791CCAD7890C"</MasterETag>
+      <Name>TextContent</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <Published>2014-07-29T08:17:17.841+00:00</Published>
+      <RawHtmlContent>&lt;p&gt;Bla bla&lt;/p&gt;</RawHtmlContent>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/TextContent/0b80f00e-a1f5-4eff-9eaf-b2dd3d50a790</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <SortOrderNumber>0</SortOrderNumber>
+      <SubTitle i:nil="true" />
+      <Title>Here is my title</Title>
+    </TextContent>
+    <TextContent>
+      <Author />
+      <Body i:nil="true" />
+      <Categories>
+        <CollectionContent>
+          <Category>
+            <CategoryName>catNews</CategoryName>
+            <Excerpt i:nil="true" />
+            <GeneratedByProcessID i:nil="true" />
+            <ID>ab1311f9-0951-406c-a7d9-eb24528ebcf2</ID>
+            <ImageData i:nil="true" />
+            <MasterETag i:nil="true" />
+            <Name>Category</Name>
+            <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+            <ParentCategory i:nil="true" />
+            <ParentCategoryID i:nil="true" />
+            <ReferenceToInformation i:nil="true" />
+            <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/ab1311f9-0951-406c-a7d9-eb24528ebcf2</RelativeLocation>
+            <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            <Title>News</Title>
+          </Category>
+        </CollectionContent>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>f4798c21-1e22-4604-8ff9-096fe73754ed</ID>
+        <IsCollectionFiltered>false</IsCollectionFiltered>
+        <MasterETag i:nil="true" />
+        <Name>CategoryCollection</Name>
+        <OrderFilterIDList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>AaltoGlobalImpact.OIP/CategoryCollection/f4798c21-1e22-4604-8ff9-096fe73754ed</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Categories>
+      <Excerpt />
+      <GeneratedByProcessID i:nil="true" />
+      <ID>0daf8940-1c27-4e1e-b919-dd7c192d00f4</ID>
+      <IFrameSources i:nil="true" />
+      <ImageData>
+        <AdditionalFormatFileExt>.jpg</AdditionalFormatFileExt>
+        <ContentLength>24394</ContentLength>
+        <FileExt>.jpg</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>6abd96d7-1df7-42be-b574-b4e11e8d2149</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName i:nil="true" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/6abd96d7-1df7-42be-b574-b4e11e8d2149.jpg</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </ImageData>
+      <Locations i:nil="true" />
+      <MasterETag>"0x8D142E333CFBE50"</MasterETag>
+      <Name>TextContent</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <Published>2014-05-21T08:08:54.082+00:00</Published>
+      <RawHtmlContent>&lt;p&gt;Test test&lt;/p&gt;</RawHtmlContent>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/TextContent/0daf8940-1c27-4e1e-b919-dd7c192d00f4</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <SortOrderNumber>0</SortOrderNumber>
+      <SubTitle i:nil="true" />
+      <Title>Test article</Title>
+    </TextContent>
+    <TextContent>
+      <Author>Petri Businessman</Author>
+      <Body i:nil="true" />
+      <Categories>
+        <CollectionContent>
+          <Category>
+            <CategoryName>catBusinessSpecial</CategoryName>
+            <Excerpt i:nil="true" />
+            <GeneratedByProcessID i:nil="true" />
+            <ID>a15b4bb7-6e42-4b44-8cbc-e0ddac598efc</ID>
+            <ImageData i:nil="true" />
+            <MasterETag i:nil="true" />
+            <Name>Category</Name>
+            <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+            <ParentCategory i:nil="true" />
+            <ParentCategoryID i:nil="true" />
+            <ReferenceToInformation i:nil="true" />
+            <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/a15b4bb7-6e42-4b44-8cbc-e0ddac598efc</RelativeLocation>
+            <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            <Title>Business Special</Title>
+          </Category>
+        </CollectionContent>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>1ea73d9b-9412-4128-9dd8-b2a6f57bdbcc</ID>
+        <IsCollectionFiltered>false</IsCollectionFiltered>
+        <MasterETag i:nil="true" />
+        <Name>CategoryCollection</Name>
+        <OrderFilterIDList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>AaltoGlobalImpact.OIP/CategoryCollection/1ea73d9b-9412-4128-9dd8-b2a6f57bdbcc</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Categories>
+      <Excerpt>Why buying gold?</Excerpt>
+      <GeneratedByProcessID i:nil="true" />
+      <ID>267b5964-4b46-4b09-8a4f-7c83c2d10592</ID>
+      <IFrameSources i:nil="true" />
+      <ImageData>
+        <AdditionalFormatFileExt>.png</AdditionalFormatFileExt>
+        <ContentLength>1738</ContentLength>
+        <FileExt>.png</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>2c241391-0f2a-4afe-ac1b-2f347d50cabc</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName i:nil="true" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/2c241391-0f2a-4afe-ac1b-2f347d50cabc.png</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </ImageData>
+      <Locations i:nil="true" />
+      <MasterETag>"0x8D184393DA7CEBC"</MasterETag>
+      <Name>TextContent</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <Published>2014-08-12T11:38:14.15+00:00</Published>
+      <RawHtmlContent>&lt;p&gt;&lt;p&gt;&lt;b&gt;William Kaye&lt;/b&gt;, who previously has been working for Goldman Sachs is by no means a &lt;em&gt;“nobody”&lt;/em&gt;
+ on the global markets, and the fact that his statement caused a stir 
+was less surprising than the surprise non-insiders got when they heard 
+the news about Germany´s gold. In fact, nsnbc´s initial report was doubted by many but was, as it turned out right&lt;em&gt; “in the money”,&lt;/em&gt; one could, so to speak, take our report to the bank.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://nsnbc.me/wp-content/uploads/2013/07/1916MomusPinocchio.jpg"&gt;&lt;img&gt;&lt;/a&gt;German Federal Bank. A Real Embarrassment and Non-Existent Transparency.&lt;/strong&gt;
+ Not surprisingly either, is the fact that the situation became an 
+embarrassment for the German Federal Bank, Deutsche Bundesbank (DB).&lt;/p&gt;
+&lt;p&gt;A DB speaker said, that the Deutsche Bundesbank told the German 
+financial publication “Deutsche Wirtschafts Nachrichten” (German Market News), that the DB does not want to comment on the statement and referred to the&lt;em&gt; full transparency&lt;/em&gt; which it had provided about the German gold reserves in January 2013. &lt;em&gt;“The situation”&lt;/em&gt; said the DB spokesperson, &lt;em&gt;“has remained unchanged since then”&lt;/em&gt;. The statement however, was only 50 % true.&amp;nbsp;The true 50 % of the statement is, that the Deutsche Bundesbank does not want to comment.&lt;/p&gt;&lt;br&gt;&lt;/p&gt;</RawHtmlContent>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/TextContent/267b5964-4b46-4b09-8a4f-7c83c2d10592</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <SortOrderNumber>0</SortOrderNumber>
+      <SubTitle i:nil="true" />
+      <Title>Business Article II</Title>
+    </TextContent>
+    <TextContent>
+      <Author>Petri Businessman</Author>
+      <Body i:nil="true" />
+      <Categories>
+        <CollectionContent>
+          <Category>
+            <CategoryName>catBusinessSpecial</CategoryName>
+            <Excerpt i:nil="true" />
+            <GeneratedByProcessID i:nil="true" />
+            <ID>a15b4bb7-6e42-4b44-8cbc-e0ddac598efc</ID>
+            <ImageData i:nil="true" />
+            <MasterETag i:nil="true" />
+            <Name>Category</Name>
+            <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+            <ParentCategory i:nil="true" />
+            <ParentCategoryID i:nil="true" />
+            <ReferenceToInformation i:nil="true" />
+            <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/a15b4bb7-6e42-4b44-8cbc-e0ddac598efc</RelativeLocation>
+            <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            <Title>Business Special</Title>
+          </Category>
+        </CollectionContent>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>1f56f149-9010-48fc-9ad5-49caee37b9f3</ID>
+        <IsCollectionFiltered>false</IsCollectionFiltered>
+        <MasterETag i:nil="true" />
+        <Name>CategoryCollection</Name>
+        <OrderFilterIDList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>AaltoGlobalImpact.OIP/CategoryCollection/1f56f149-9010-48fc-9ad5-49caee37b9f3</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Categories>
+      <Excerpt>Cycles are the key</Excerpt>
+      <GeneratedByProcessID i:nil="true" />
+      <ID>3d2b20a2-d98b-41b5-bb8b-5b6d07f85c13</ID>
+      <IFrameSources i:nil="true" />
+      <ImageData>
+        <AdditionalFormatFileExt>.png</AdditionalFormatFileExt>
+        <ContentLength>1738</ContentLength>
+        <FileExt>.png</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>0c26934b-fda8-4fda-8670-fece6c289c5b</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName i:nil="true" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/0c26934b-fda8-4fda-8670-fece6c289c5b.png</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </ImageData>
+      <Locations i:nil="true" />
+      <MasterETag>"0x8D1843981709DEC"</MasterETag>
+      <Name>TextContent</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <Published>2014-08-12T11:40:01.451+00:00</Published>
+      <RawHtmlContent>&lt;p&gt;&lt;p&gt;A business insider who previously has been working for Goldman Sachs is by no means a &lt;em&gt;“nobody”&lt;/em&gt;
+ on the global markets, and the fact that his statement caused a stir 
+was less surprising than the surprise non-insiders got when they heard 
+the news about Germany´s gold. In fact, nsnbc´s initial report was doubted by many but was, as it turned out right&lt;em&gt; “in the money”,&lt;/em&gt; one could, so to speak, take our report to the bank.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://nsnbc.me/wp-content/uploads/2013/07/1916MomusPinocchio.jpg"&gt;&lt;img&gt;&lt;/a&gt;&lt;/strong&gt;German Federal Bank. A Real Embarrassment and Non-Existent Transparency.
+ Not surprisingly either, is the fact that the situation became an 
+embarrassment for the German Federal Bank, Deutsche Bundesbank (DB).&lt;/p&gt;
+&lt;p&gt;A DB speaker said, that the Deutsche Bundesbank told the German 
+financial publication “Deutsche Wirtschafts Nachrichten” (German Market News), that the DB does not want to comment on the statement and referred to the&lt;em&gt; full transparency&lt;/em&gt; which it had provided about the German gold reserves in January 2013. &lt;em&gt;“The situation”&lt;/em&gt; said the DB spokesperson, &lt;em&gt;“has remained unchanged since then”&lt;/em&gt;. The statement however, was only 50 % true.&amp;nbsp;The true 50 % of the statement is, that the &lt;b&gt;Deutsche Bundesbank does not want to comment&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;/p&gt;</RawHtmlContent>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/TextContent/3d2b20a2-d98b-41b5-bb8b-5b6d07f85c13</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <SortOrderNumber>0</SortOrderNumber>
+      <SubTitle i:nil="true" />
+      <Title>Business Article III</Title>
+    </TextContent>
+    <TextContent>
+      <Author>Hugo Jimenez</Author>
+      <Body i:nil="true" />
+      <Categories>
+        <CollectionContent>
+          <Category>
+            <CategoryName>catImportant</CategoryName>
+            <Excerpt i:nil="true" />
+            <GeneratedByProcessID i:nil="true" />
+            <ID>ca2b303c-1cc3-4af1-9c30-90265b167bc0</ID>
+            <ImageData i:nil="true" />
+            <MasterETag i:nil="true" />
+            <Name>Category</Name>
+            <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+            <ParentCategory i:nil="true" />
+            <ParentCategoryID i:nil="true" />
+            <ReferenceToInformation i:nil="true" />
+            <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/ca2b303c-1cc3-4af1-9c30-90265b167bc0</RelativeLocation>
+            <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            <Title>Important</Title>
+          </Category>
+        </CollectionContent>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>6fe84367-fd6e-4d1b-81e4-7f0388e6a9cd</ID>
+        <IsCollectionFiltered>false</IsCollectionFiltered>
+        <MasterETag i:nil="true" />
+        <Name>CategoryCollection</Name>
+        <OrderFilterIDList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>AaltoGlobalImpact.OIP/CategoryCollection/6fe84367-fd6e-4d1b-81e4-7f0388e6a9cd</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Categories>
+      <Excerpt>Like art? Show us your personal projects, we'll be glad to showcase them</Excerpt>
+      <GeneratedByProcessID i:nil="true" />
+      <ID>41f45d02-fb52-46e3-95f0-627fb35ed2fd</ID>
+      <IFrameSources i:nil="true" />
+      <ImageData>
+        <AdditionalFormatFileExt>.jpg</AdditionalFormatFileExt>
+        <ContentLength>152800</ContentLength>
+        <FileExt>.jpg</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>b44cdf39-7689-43b5-ac92-eef0daa3bb92</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName i:nil="true" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/b44cdf39-7689-43b5-ac92-eef0daa3bb92.jpg</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </ImageData>
+      <Locations i:nil="true" />
+      <MasterETag>"0x8D141569BD89C79"</MasterETag>
+      <Name>TextContent</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <Published>2014-05-19T08:45:53.527+00:00</Published>
+      <RawHtmlContent>&lt;p&gt;&lt;p&gt;
+&lt;/p&gt;&lt;p&gt;
+Integer molestie, arcu sed feugiat ultrices, leo elit euismod tortor, 
+nec tempus neque justo eu dui. Curabitur tempus neque sed tortor 
+malesuada sodales. Nulla felis diam, ornare nec magna feugiat, convallis
+ pulvinar leo. Phasellus dictum adipiscing nulla, vel pellentesque diam 
+semper at. Fusce a faucibus tortor. Donec sed lectus risus. Sed varius, 
+est sit amet blandit tincidunt, magna diam viverra turpis, in viverra 
+dolor massa eu justo. Pellentesque tellus risus, gravida vitae placerat 
+rhoncus, lobortis eget neque.&lt;/p&gt;&lt;p&gt;&lt;a href="www.loremipsum.com"&gt;asasdasdasdasdasdasdasdasdasdasdasdasdhasdahsdahsdashdashdashdasdhasdhashdasdhasdhasdhasdhasdhasdhashdashdashdashdashdashdahsdahsdhasdhsadhasdhadhadhadhasdhadhadhadahd&lt;/a&gt;&lt;br&gt; &lt;/p&gt;&lt;p&gt;
+Pellentesque auctor imperdiet sollicitudin. Aenean congue nisi placerat 
+feugiat iaculis. Vestibulum at pharetra neque, sit amet gravida justo. 
+Nam neque ligula, gravida dignissim neque sit amet, pretium semper 
+lorem. Donec enim massa, placerat id tincidunt nec, mattis id ipsum. Sed
+ vel urna eget dolor pellentesque imperdiet. Donec interdum aliquam 
+posuere. Maecenas tincidunt tempus nisl vitae aliquam. Integer sed ipsum
+ convallis, mollis lorem nec, porta diam. Morbi et lacinia dui, et 
+egestas sem. Sed luctus est neque, at tempus nisl luctus ac.
+&lt;/p&gt;
+&lt;p&gt;
+Mauris tristique elit magna, a ornare lectus congue volutpat. 
+Suspendisse interdum quam ac tempus adipiscing. Fusce fringilla 
+sollicitudin massa, et ultrices mi posuere ut. Suspendisse faucibus, 
+justo a tincidunt mattis, magna sapien commodo odio, sit amet suscipit 
+purus ipsum eget leo. Quisque cursus lacus urna, quis feugiat tellus 
+tincidunt non. Vestibulum interdum ligula a tellus dignissim, suscipit 
+euismod orci venenatis. Phasellus hendrerit nec nisl a commodo.
+&lt;/p&gt;
+&lt;br&gt;&lt;/p&gt;</RawHtmlContent>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/TextContent/41f45d02-fb52-46e3-95f0-627fb35ed2fd</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <SortOrderNumber>0</SortOrderNumber>
+      <SubTitle i:nil="true" />
+      <Title>Art for everyone</Title>
+    </TextContent>
+    <TextContent>
+      <Author>Petri Businessman</Author>
+      <Body i:nil="true" />
+      <Categories>
+        <CollectionContent>
+          <Category>
+            <CategoryName>catBusinessSpecial</CategoryName>
+            <Excerpt i:nil="true" />
+            <GeneratedByProcessID i:nil="true" />
+            <ID>a15b4bb7-6e42-4b44-8cbc-e0ddac598efc</ID>
+            <ImageData i:nil="true" />
+            <MasterETag i:nil="true" />
+            <Name>Category</Name>
+            <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+            <ParentCategory i:nil="true" />
+            <ParentCategoryID i:nil="true" />
+            <ReferenceToInformation i:nil="true" />
+            <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/a15b4bb7-6e42-4b44-8cbc-e0ddac598efc</RelativeLocation>
+            <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            <Title>Business Special</Title>
+          </Category>
+        </CollectionContent>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>603dc5c8-801e-4803-af4f-5e0702804679</ID>
+        <IsCollectionFiltered>false</IsCollectionFiltered>
+        <MasterETag i:nil="true" />
+        <Name>CategoryCollection</Name>
+        <OrderFilterIDList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>AaltoGlobalImpact.OIP/CategoryCollection/603dc5c8-801e-4803-af4f-5e0702804679</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Categories>
+      <Excerpt>Industry is booming</Excerpt>
+      <GeneratedByProcessID i:nil="true" />
+      <ID>9504fc4e-a80a-43a8-8f4a-735bc3ca55fd</ID>
+      <IFrameSources i:nil="true" />
+      <ImageData>
+        <AdditionalFormatFileExt>.png</AdditionalFormatFileExt>
+        <ContentLength>1738</ContentLength>
+        <FileExt>.png</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>b585f5e6-3829-40ff-ae0f-c7be097e919d</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName i:nil="true" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/b585f5e6-3829-40ff-ae0f-c7be097e919d.png</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </ImageData>
+      <Locations i:nil="true" />
+      <MasterETag>"0x8D18438FE941AF5"</MasterETag>
+      <Name>TextContent</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <Published>2014-08-12T11:30:11.482+00:00</Published>
+      <RawHtmlContent>&lt;p&gt;
+	Cosby sweater Austin pour-over cray gluten-free, before they sold out pug Etsy direct trade Intelligentsia Schlitz you probably haven't heard of them aesthetic lo-fi. Brooklyn chia Blue Bottle asymmetrical Schlitz.
+&lt;/p&gt;
+&lt;p&gt;
+	Cosby sweater Austin pour-over cray gluten-free, before they sold out pug Etsy direct trade Intelligentsia Schlitz you probably haven't heard of them aesthetic lo-fi. Brooklyn chia Blue Bottle asymmetrical Schlitz.
+&lt;/p&gt;
+&lt;p&gt;
+	Cosby sweater Austin pour-over cray gluten-free, before they sold out pug Etsy direct trade Intelligentsia Schlitz you probably haven't heard of them aesthetic lo-fi. Brooklyn chia Blue Bottle asymmetrical Schlitz.
+&lt;/p&gt;</RawHtmlContent>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/TextContent/9504fc4e-a80a-43a8-8f4a-735bc3ca55fd</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <SortOrderNumber>0</SortOrderNumber>
+      <SubTitle i:nil="true" />
+      <Title>Business Article I</Title>
+    </TextContent>
+    <TextContent>
+      <Author>Me</Author>
+      <Body i:nil="true" />
+      <Categories>
+        <CollectionContent>
+          <Category>
+            <CategoryName>catImportant</CategoryName>
+            <Excerpt i:nil="true" />
+            <GeneratedByProcessID i:nil="true" />
+            <ID>ca2b303c-1cc3-4af1-9c30-90265b167bc0</ID>
+            <ImageData i:nil="true" />
+            <MasterETag i:nil="true" />
+            <Name>Category</Name>
+            <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+            <ParentCategory i:nil="true" />
+            <ParentCategoryID i:nil="true" />
+            <ReferenceToInformation i:nil="true" />
+            <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/ca2b303c-1cc3-4af1-9c30-90265b167bc0</RelativeLocation>
+            <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            <Title>Important</Title>
+          </Category>
+        </CollectionContent>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>2c991a88-b2bd-47c1-ba2d-c6841b808c60</ID>
+        <IsCollectionFiltered>false</IsCollectionFiltered>
+        <MasterETag i:nil="true" />
+        <Name>CategoryCollection</Name>
+        <OrderFilterIDList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>AaltoGlobalImpact.OIP/CategoryCollection/2c991a88-b2bd-47c1-ba2d-c6841b808c60</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Categories>
+      <Excerpt>Well this actually is it</Excerpt>
+      <GeneratedByProcessID i:nil="true" />
+      <ID>b236bb4e-2ee7-4707-b3fe-f4835df072e6</ID>
+      <IFrameSources i:nil="true" />
+      <ImageData>
+        <AdditionalFormatFileExt>.png</AdditionalFormatFileExt>
+        <ContentLength>73741</ContentLength>
+        <FileExt>.png</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>3f4b39ef-14ce-4f48-ad5f-0d99bea869a8</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName i:nil="true" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/3f4b39ef-14ce-4f48-ad5f-0d99bea869a8.png</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </ImageData>
+      <Locations i:nil="true" />
+      <MasterETag>"0x8D15422F4690D3E"</MasterETag>
+      <Name>TextContent</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <Published>2014-06-12T06:58:15.68+00:00</Published>
+      <RawHtmlContent>&lt;p&gt;Some text here&lt;/p&gt;</RawHtmlContent>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/TextContent/b236bb4e-2ee7-4707-b3fe-f4835df072e6</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <SortOrderNumber>0</SortOrderNumber>
+      <SubTitle i:nil="true" />
+      <Title>This is our logo</Title>
+    </TextContent>
+    <TextContent>
+      <Author>Empty</Author>
+      <Body i:nil="true" />
+      <Categories>
+        <CollectionContent>
+          <Category>
+            <CategoryName>catGossip</CategoryName>
+            <Excerpt>Unconfirmed rumors and exciting possibilities</Excerpt>
+            <GeneratedByProcessID i:nil="true" />
+            <ID>41488504-d4d1-47e9-bc02-f9cc5c42b30c</ID>
+            <ImageData i:nil="true" />
+            <MasterETag i:nil="true" />
+            <Name>Category</Name>
+            <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+            <ParentCategory i:nil="true" />
+            <ParentCategoryID i:nil="true" />
+            <ReferenceToInformation i:nil="true" />
+            <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/41488504-d4d1-47e9-bc02-f9cc5c42b30c</RelativeLocation>
+            <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            <Title>Gossip</Title>
+          </Category>
+        </CollectionContent>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>45322b48-82e2-414f-82cf-91311ead399e</ID>
+        <IsCollectionFiltered>false</IsCollectionFiltered>
+        <MasterETag i:nil="true" />
+        <Name>CategoryCollection</Name>
+        <OrderFilterIDList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>AaltoGlobalImpact.OIP/CategoryCollection/45322b48-82e2-414f-82cf-91311ead399e</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Categories>
+      <Excerpt />
+      <GeneratedByProcessID i:nil="true" />
+      <ID>bdf73cc1-9e1f-43bb-8103-54ee066d395a</ID>
+      <IFrameSources i:nil="true" />
+      <ImageData>
+        <AdditionalFormatFileExt>.jpg</AdditionalFormatFileExt>
+        <ContentLength>15834</ContentLength>
+        <FileExt>.jpg</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>fe90dab8-a8fa-4358-95f6-3d8af3c29b61</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName i:nil="true" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/fe90dab8-a8fa-4358-95f6-3d8af3c29b61.jpg</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </ImageData>
+      <Locations i:nil="true" />
+      <MasterETag>"0x8D1551EB6FE4CAC"</MasterETag>
+      <Name>TextContent</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <Published>2014-05-19T07:02:50.852+00:00</Published>
+      <RawHtmlContent>&lt;p&gt;Following Apple's success, many companies are finally starting to recognize the crucial role design plays in building a desirable (and profitable) product. Yet very few companies are actually founded and led by designers. Here to change that is&amp;nbsp;&lt;a href="https://www.30weeks.com/"&gt;30 Weeks&lt;/a&gt;, a new program by a powerhouse team of New York design schools--Parsons, Pratt, School of Visual Arts, and The Cooper Union--in collaboration with the education company Hyper Island and Google.&lt;br&gt;&lt;/p&gt;&lt;p&gt;
+	 &lt;a href="http://youtu.be/X2wWTadsBDA"&gt;http://youtu.be/X2wWTadsBDA&lt;/a&gt;&lt;img src="http://e.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2014/06/3031619-poster-p-shutterstock162455429.jpg" style=""&gt;
+&lt;/p&gt;
+</RawHtmlContent>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/TextContent/bdf73cc1-9e1f-43bb-8103-54ee066d395a</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <SortOrderNumber>0</SortOrderNumber>
+      <SubTitle i:nil="true" />
+      <Title>Trying out safari</Title>
+    </TextContent>
+    <TextContent>
+      <Author>Empty</Author>
+      <Body i:nil="true" />
+      <Categories>
+        <CollectionContent>
+          <Category>
+            <CategoryName>catImportant</CategoryName>
+            <Excerpt i:nil="true" />
+            <GeneratedByProcessID i:nil="true" />
+            <ID>ca2b303c-1cc3-4af1-9c30-90265b167bc0</ID>
+            <ImageData i:nil="true" />
+            <MasterETag i:nil="true" />
+            <Name>Category</Name>
+            <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+            <ParentCategory i:nil="true" />
+            <ParentCategoryID i:nil="true" />
+            <ReferenceToInformation i:nil="true" />
+            <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/ca2b303c-1cc3-4af1-9c30-90265b167bc0</RelativeLocation>
+            <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            <Title>Important</Title>
+          </Category>
+        </CollectionContent>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>458dd606-1d81-4672-8a5a-ce537f421a54</ID>
+        <IsCollectionFiltered>false</IsCollectionFiltered>
+        <MasterETag i:nil="true" />
+        <Name>CategoryCollection</Name>
+        <OrderFilterIDList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>AaltoGlobalImpact.OIP/CategoryCollection/458dd606-1d81-4672-8a5a-ce537f421a54</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Categories>
+      <Excerpt />
+      <GeneratedByProcessID i:nil="true" />
+      <ID>d40f7b02-23cf-4f6d-89ee-a64fb1d9f017</ID>
+      <IFrameSources i:nil="true" />
+      <ImageData>
+        <AdditionalFormatFileExt>.png</AdditionalFormatFileExt>
+        <ContentLength>86941</ContentLength>
+        <FileExt>.png</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>c36cde6d-56d7-4994-acae-0b814f29ff34</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName i:nil="true" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/c36cde6d-56d7-4994-acae-0b814f29ff34.png</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </ImageData>
+      <Locations i:nil="true" />
+      <MasterETag>"0x8D13F216CB844FA"</MasterETag>
+      <Name>TextContent</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <Published>2014-05-16T13:23:28.45+00:00</Published>
+      <RawHtmlContent>&lt;p&gt;
+	 &lt;a href="http://vimeo.com/93292947"&gt;Co-Creating New Partnerships for Financing Sustainable Development&lt;/a&gt; from &lt;a href="http://vimeo.com/user11643087"&gt;Aalto Global Impact&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.
+&lt;/p&gt;&lt;br /&gt;</RawHtmlContent>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/TextContent/d40f7b02-23cf-4f6d-89ee-a64fb1d9f017</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <SortOrderNumber>0</SortOrderNumber>
+      <SubTitle i:nil="true" />
+      <Title>How does this look like?</Title>
+    </TextContent>
+  </CollectionContent>
+  <GeneratedByProcessID i:nil="true" />
+  <ID>183408e7-71c1-4b72-8e2d-a6eb33a67861</ID>
+  <IsCollectionFiltered>false</IsCollectionFiltered>
+  <MasterETag i:nil="true" />
+  <Name>TextContentCollection</Name>
+  <OrderFilterIDList xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/TextContentCollection/MasterCollection</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+</TextContentCollection>

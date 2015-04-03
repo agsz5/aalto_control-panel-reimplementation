@@ -1,0 +1,359 @@
+﻿<BinaryFileCollection xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <CollectionContent>
+    <BinaryFile>
+      <Categories>
+        <CollectionContent>
+          <Category>
+            <CategoryName>catNews</CategoryName>
+            <Excerpt i:nil="true" />
+            <GeneratedByProcessID i:nil="true" />
+            <ID>ab1311f9-0951-406c-a7d9-eb24528ebcf2</ID>
+            <ImageData i:nil="true" />
+            <MasterETag i:nil="true" />
+            <Name>Category</Name>
+            <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+            <ParentCategory i:nil="true" />
+            <ParentCategoryID i:nil="true" />
+            <ReferenceToInformation i:nil="true" />
+            <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/ab1311f9-0951-406c-a7d9-eb24528ebcf2</RelativeLocation>
+            <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            <Title>News</Title>
+          </Category>
+        </CollectionContent>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>0fd8bac0-485c-4a62-8a19-5397eea90d95</ID>
+        <IsCollectionFiltered>false</IsCollectionFiltered>
+        <MasterETag i:nil="true" />
+        <Name>CategoryCollection</Name>
+        <OrderFilterIDList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/CategoryCollection/0fd8bac0-485c-4a62-8a19-5397eea90d95</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Categories>
+      <Data>
+        <AdditionalFormatFileExt i:nil="true" />
+        <ContentLength>155619</ContentLength>
+        <FileExt>.xlsx</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>eac87c3d-5785-4b55-9f26-d6f55821237e</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName i:nil="true" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/eac87c3d-5785-4b55-9f26-d6f55821237e.xlsx</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Data>
+      <Description>Lets see yhteismaa logo</Description>
+      <GeneratedByProcessID i:nil="true" />
+      <ID>1a9548fb-a6ca-47a0-9c7c-e555361b2b2a</ID>
+      <MasterETag>"0x8D18437B3B43381"</MasterETag>
+      <Name>BinaryFile</Name>
+      <OriginalFileName i:nil="true" />
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/BinaryFile/1a9548fb-a6ca-47a0-9c7c-e555361b2b2a</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <Title>Attachment 3</Title>
+    </BinaryFile>
+    <BinaryFile>
+      <Categories>
+        <CollectionContent>
+          <Category>
+            <CategoryName>catNews</CategoryName>
+            <Excerpt i:nil="true" />
+            <GeneratedByProcessID i:nil="true" />
+            <ID>ab1311f9-0951-406c-a7d9-eb24528ebcf2</ID>
+            <ImageData i:nil="true" />
+            <MasterETag i:nil="true" />
+            <Name>Category</Name>
+            <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+            <ParentCategory i:nil="true" />
+            <ParentCategoryID i:nil="true" />
+            <ReferenceToInformation i:nil="true" />
+            <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/ab1311f9-0951-406c-a7d9-eb24528ebcf2</RelativeLocation>
+            <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            <Title>News</Title>
+          </Category>
+        </CollectionContent>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>ee42e9a2-f89f-45d3-86cf-4988dbf22bbe</ID>
+        <IsCollectionFiltered>false</IsCollectionFiltered>
+        <MasterETag i:nil="true" />
+        <Name>CategoryCollection</Name>
+        <OrderFilterIDList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/CategoryCollection/ee42e9a2-f89f-45d3-86cf-4988dbf22bbe</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Categories>
+      <Data>
+        <AdditionalFormatFileExt i:nil="true" />
+        <ContentLength>62269</ContentLength>
+        <FileExt>.pdf</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>86628367-f8ae-4182-ba5b-68104e6f8060</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName i:nil="true" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/86628367-f8ae-4182-ba5b-68104e6f8060.pdf</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Data>
+      <Description />
+      <GeneratedByProcessID i:nil="true" />
+      <ID>2143ea48-9d5a-4ad2-8c6b-c85f1307eca6</ID>
+      <MasterETag>"0x8D18437B3B963C3"</MasterETag>
+      <Name>BinaryFile</Name>
+      <OriginalFileName i:nil="true" />
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/BinaryFile/2143ea48-9d5a-4ad2-8c6b-c85f1307eca6</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <Title />
+    </BinaryFile>
+    <BinaryFile>
+      <Categories i:nil="true" />
+      <Data>
+        <AdditionalFormatFileExt i:nil="true" />
+        <ContentLength>44264</ContentLength>
+        <FileExt>.xlsx</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>dd49a9df-6e36-4adb-958e-79fe101185b2</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName>Cinemaissi 2013 finances.xlsx</OriginalFileName>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/dd49a9df-6e36-4adb-958e-79fe101185b2.xlsx</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Data>
+      <Description i:nil="true" />
+      <GeneratedByProcessID i:nil="true" />
+      <ID>22473360-b113-40d3-885f-4a234127c086</ID>
+      <MasterETag>"0x8D15EFC9BF8887F"</MasterETag>
+      <Name>BinaryFile</Name>
+      <OriginalFileName>Cinemaissi 2013 finances.xlsx</OriginalFileName>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/BinaryFile/22473360-b113-40d3-885f-4a234127c086</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <Title i:nil="true" />
+    </BinaryFile>
+    <BinaryFile>
+      <Categories i:nil="true" />
+      <Data>
+        <AdditionalFormatFileExt i:nil="true" />
+        <ContentLength>429909</ContentLength>
+        <FileExt>.pdf</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>5ed62010-87e0-497f-8e57-f100fe85b87f</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName>Master's Award in Development Studies 2014.pdf</OriginalFileName>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/5ed62010-87e0-497f-8e57-f100fe85b87f.pdf</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Data>
+      <Description i:nil="true" />
+      <GeneratedByProcessID i:nil="true" />
+      <ID>4a5c6186-a55f-49ff-83c9-8432af082c08</ID>
+      <MasterETag>"0x8D15F6B3076AE0C"</MasterETag>
+      <Name>BinaryFile</Name>
+      <OriginalFileName>Master's Award in Development Studies 2014.pdf</OriginalFileName>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/BinaryFile/4a5c6186-a55f-49ff-83c9-8432af082c08</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <Title i:nil="true" />
+    </BinaryFile>
+    <BinaryFile>
+      <Categories>
+        <CollectionContent>
+          <Category>
+            <CategoryName>catImportant</CategoryName>
+            <Excerpt i:nil="true" />
+            <GeneratedByProcessID i:nil="true" />
+            <ID>ca2b303c-1cc3-4af1-9c30-90265b167bc0</ID>
+            <ImageData i:nil="true" />
+            <MasterETag i:nil="true" />
+            <Name>Category</Name>
+            <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+            <ParentCategory i:nil="true" />
+            <ParentCategoryID i:nil="true" />
+            <ReferenceToInformation i:nil="true" />
+            <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/ca2b303c-1cc3-4af1-9c30-90265b167bc0</RelativeLocation>
+            <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            <Title>Important</Title>
+          </Category>
+        </CollectionContent>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>a3bf633d-3298-408e-b4de-70e14527e264</ID>
+        <IsCollectionFiltered>false</IsCollectionFiltered>
+        <MasterETag i:nil="true" />
+        <Name>CategoryCollection</Name>
+        <OrderFilterIDList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/CategoryCollection/a3bf633d-3298-408e-b4de-70e14527e264</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Categories>
+      <Data>
+        <AdditionalFormatFileExt>.png</AdditionalFormatFileExt>
+        <ContentLength>237391</ContentLength>
+        <FileExt>.png</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>abfa2c61-2a21-47bc-9a4d-d9e3eb4fb53b</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName i:nil="true" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/abfa2c61-2a21-47bc-9a4d-d9e3eb4fb53b.png</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Data>
+      <Description>According to the Institute of Medicine, the U.S. healthcare system wastes more than $765 billion each year—about 30 percent of our healthcare spending. If we eliminated this waste, over 10 years we could reduce nearly 50 percent of our national debt. The waste is that bad. It’s a huge handicap not only for the lives of every American, but for our overall economy.</Description>
+      <GeneratedByProcessID i:nil="true" />
+      <ID>539a753b-7013-47a3-a708-2658aacd943c</ID>
+      <MasterETag>"0x8D18437B3BF0938"</MasterETag>
+      <Name>BinaryFile</Name>
+      <OriginalFileName i:nil="true" />
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/BinaryFile/539a753b-7013-47a3-a708-2658aacd943c</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <Title>Technology transforming healthcare </Title>
+    </BinaryFile>
+    <BinaryFile>
+      <Categories>
+        <CollectionContent>
+          <Category>
+            <CategoryName>catNews</CategoryName>
+            <Excerpt i:nil="true" />
+            <GeneratedByProcessID i:nil="true" />
+            <ID>ab1311f9-0951-406c-a7d9-eb24528ebcf2</ID>
+            <ImageData i:nil="true" />
+            <MasterETag i:nil="true" />
+            <Name>Category</Name>
+            <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+            <ParentCategory i:nil="true" />
+            <ParentCategoryID i:nil="true" />
+            <ReferenceToInformation i:nil="true" />
+            <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/ab1311f9-0951-406c-a7d9-eb24528ebcf2</RelativeLocation>
+            <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            <Title>News</Title>
+          </Category>
+        </CollectionContent>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>0b8673df-7b05-4550-b794-2b2a667e3ebf</ID>
+        <IsCollectionFiltered>false</IsCollectionFiltered>
+        <MasterETag i:nil="true" />
+        <Name>CategoryCollection</Name>
+        <OrderFilterIDList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/CategoryCollection/0b8673df-7b05-4550-b794-2b2a667e3ebf</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Categories>
+      <Data>
+        <AdditionalFormatFileExt i:nil="true" />
+        <ContentLength>155619</ContentLength>
+        <FileExt>.xlsx</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>04e7393a-8ed0-4f65-9b49-6bd851e0e423</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName i:nil="true" />
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/04e7393a-8ed0-4f65-9b49-6bd851e0e423.xlsx</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Data>
+      <Description />
+      <GeneratedByProcessID i:nil="true" />
+      <ID>791c524e-d246-4623-a607-4a559c66b182</ID>
+      <MasterETag>"0x8D18437B3C4D5BE"</MasterETag>
+      <Name>BinaryFile</Name>
+      <OriginalFileName i:nil="true" />
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/BinaryFile/791c524e-d246-4623-a607-4a559c66b182</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <Title />
+    </BinaryFile>
+    <BinaryFile>
+      <Categories i:nil="true" />
+      <Data>
+        <AdditionalFormatFileExt i:nil="true" />
+        <ContentLength>105679</ContentLength>
+        <FileExt>.pdf</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>f4cf704b-4603-4a59-911f-c1019d600a24</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName>The Ball Content Sync Device Client.pdf</OriginalFileName>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/f4cf704b-4603-4a59-911f-c1019d600a24.pdf</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Data>
+      <Description i:nil="true" />
+      <GeneratedByProcessID i:nil="true" />
+      <ID>b568378b-8a38-4b9f-90e7-3416b0c2cb56</ID>
+      <MasterETag>"0x8D15EFC9C169894"</MasterETag>
+      <Name>BinaryFile</Name>
+      <OriginalFileName>The Ball Content Sync Device Client.pdf</OriginalFileName>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/BinaryFile/b568378b-8a38-4b9f-90e7-3416b0c2cb56</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <Title i:nil="true" />
+    </BinaryFile>
+    <BinaryFile>
+      <Categories i:nil="true" />
+      <Data>
+        <AdditionalFormatFileExt i:nil="true" />
+        <ContentLength>381974</ContentLength>
+        <FileExt>.pdf</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>0c541c0e-cca4-442c-ba96-61838108b73f</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName>Building a Web Template on the OIP.pdf</OriginalFileName>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/0c541c0e-cca4-442c-ba96-61838108b73f.pdf</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Data>
+      <Description i:nil="true" />
+      <GeneratedByProcessID i:nil="true" />
+      <ID>be762ec5-c922-461f-b23e-172bd3a6c541</ID>
+      <MasterETag>"0x8D15EFC9C1BC8D6"</MasterETag>
+      <Name>BinaryFile</Name>
+      <OriginalFileName>Building a Web Template on the OIP.pdf</OriginalFileName>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/BinaryFile/be762ec5-c922-461f-b23e-172bd3a6c541</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <Title i:nil="true" />
+    </BinaryFile>
+    <BinaryFile>
+      <Categories i:nil="true" />
+      <Data>
+        <AdditionalFormatFileExt i:nil="true" />
+        <ContentLength>272013</ContentLength>
+        <FileExt>.pdf</FileExt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>01e65bb3-3d54-4802-bcdb-77938e6ae03a</ID>
+        <MasterETag i:nil="true" />
+        <Name>MediaContent</Name>
+        <OriginalFileName>Kehitystutkimuksen maisteripalkinto 2014.pdf</OriginalFileName>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/01e65bb3-3d54-4802-bcdb-77938e6ae03a.pdf</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      </Data>
+      <Description i:nil="true" />
+      <GeneratedByProcessID i:nil="true" />
+      <ID>e0712fa4-2625-4c57-bfa2-b54a02eee97a</ID>
+      <MasterETag>"0x8D15F6B3047FCEC"</MasterETag>
+      <Name>BinaryFile</Name>
+      <OriginalFileName>Kehitystutkimuksen maisteripalkinto 2014.pdf</OriginalFileName>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/BinaryFile/e0712fa4-2625-4c57-bfa2-b54a02eee97a</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <Title i:nil="true" />
+    </BinaryFile>
+  </CollectionContent>
+  <GeneratedByProcessID i:nil="true" />
+  <ID>101bfd5d-be3e-41fc-bcb3-ee6c417c72f5</ID>
+  <IsCollectionFiltered>false</IsCollectionFiltered>
+  <MasterETag i:nil="true" />
+  <Name>BinaryFileCollection</Name>
+  <OrderFilterIDList xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/BinaryFileCollection/MasterCollection</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+</BinaryFileCollection>

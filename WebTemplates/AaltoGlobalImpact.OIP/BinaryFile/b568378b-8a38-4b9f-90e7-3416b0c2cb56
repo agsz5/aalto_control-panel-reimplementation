@@ -1,0 +1,26 @@
+﻿<BinaryFile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <Categories i:nil="true" />
+  <Data>
+    <AdditionalFormatFileExt i:nil="true" />
+    <ContentLength>105679</ContentLength>
+    <FileExt>.pdf</FileExt>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>f4cf704b-4603-4a59-911f-c1019d600a24</ID>
+    <MasterETag i:nil="true" />
+    <Name>MediaContent</Name>
+    <OriginalFileName>The Ball Content Sync Device Client.pdf</OriginalFileName>
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/f4cf704b-4603-4a59-911f-c1019d600a24.pdf</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </Data>
+  <Description i:nil="true" />
+  <GeneratedByProcessID i:nil="true" />
+  <ID>b568378b-8a38-4b9f-90e7-3416b0c2cb56</ID>
+  <MasterETag i:nil="true" />
+  <Name>BinaryFile</Name>
+  <OriginalFileName>The Ball Content Sync Device Client.pdf</OriginalFileName>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/BinaryFile/b568378b-8a38-4b9f-90e7-3416b0c2cb56</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <Title i:nil="true" />
+</BinaryFile>

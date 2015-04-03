@@ -1,0 +1,21 @@
+﻿<Comment xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <CommentText />
+  <Created>2014-06-09T06:03:49.8980268Z</Created>
+  <GeneratedByProcessID i:nil="true" />
+  <ID>eb961199-c914-4970-af4e-fb36cd299094</ID>
+  <LastAuthorAccountID>ccd2e071-9df7-46c8-86a9-1d9da0cdb717</LastAuthorAccountID>
+  <LastAuthorEmail>kalle.launiala@protonit.net</LastAuthorEmail>
+  <LastAuthorName>Kalle Launiala</LastAuthorName>
+  <LastModified>2014-06-26T02:22:28.8799214Z</LastModified>
+  <MasterETag i:nil="true" />
+  <Name>Comment</Name>
+  <OriginalAuthorAccountID>ccd2e071-9df7-46c8-86a9-1d9da0cdb717</OriginalAuthorAccountID>
+  <OriginalAuthorEmail>kalle.launiala@protonit.net</OriginalAuthorEmail>
+  <OriginalAuthorName>Kalle Launiala</OriginalAuthorName>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Comment/eb961199-c914-4970-af4e-fb36cd299094</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <TargetObjectDomain>AaltoGlobalImpact.OIP</TargetObjectDomain>
+  <TargetObjectID>0daf8940-1c27-4e1e-b919-dd7c192d00f4</TargetObjectID>
+  <TargetObjectName>TextContent</TargetObjectName>
+</Comment>

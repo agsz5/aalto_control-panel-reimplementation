@@ -1,0 +1,63 @@
+﻿<TextContent xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <Author>Empty</Author>
+  <Body i:nil="true" />
+  <Categories>
+    <CollectionContent>
+      <Category>
+        <CategoryName>catGossip</CategoryName>
+        <Excerpt>Unconfirmed rumors and exciting possibilities</Excerpt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>41488504-d4d1-47e9-bc02-f9cc5c42b30c</ID>
+        <ImageData i:nil="true" />
+        <MasterETag i:nil="true" />
+        <Name>Category</Name>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <ParentCategory i:nil="true" />
+        <ParentCategoryID i:nil="true" />
+        <ReferenceToInformation i:nil="true" />
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/41488504-d4d1-47e9-bc02-f9cc5c42b30c</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        <Title>Gossip</Title>
+      </Category>
+    </CollectionContent>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>9fdaf885-453a-41bf-a236-ddeb1007c18e</ID>
+    <IsCollectionFiltered>false</IsCollectionFiltered>
+    <MasterETag i:nil="true" />
+    <Name>CategoryCollection</Name>
+    <OrderFilterIDList xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>AaltoGlobalImpact.OIP/CategoryCollection/9fdaf885-453a-41bf-a236-ddeb1007c18e</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </Categories>
+  <Excerpt />
+  <GeneratedByProcessID i:nil="true" />
+  <ID>08596a49-4b7a-4de0-b690-e4fda36648f1</ID>
+  <IFrameSources i:nil="true" />
+  <ImageData>
+    <AdditionalFormatFileExt>.png</AdditionalFormatFileExt>
+    <ContentLength>193781</ContentLength>
+    <FileExt>.png</FileExt>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>2150bff2-6169-4f2c-a64d-5211a5d76e6a</ID>
+    <MasterETag i:nil="true" />
+    <Name>MediaContent</Name>
+    <OriginalFileName i:nil="true" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/2150bff2-6169-4f2c-a64d-5211a5d76e6a.png</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </ImageData>
+  <Locations i:nil="true" />
+  <MasterETag i:nil="true" />
+  <Name>TextContent</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <Published>2014-05-16T13:33:53.922+00:00</Published>
+  <RawHtmlContent>&lt;p&gt;
+	Here we go again! !!&lt;/p&gt;
+</RawHtmlContent>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/TextContent/08596a49-4b7a-4de0-b690-e4fda36648f1</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <SortOrderNumber>0</SortOrderNumber>
+  <SubTitle i:nil="true" />
+  <Title>Sauna safari</Title>
+</TextContent>

@@ -1,0 +1,109 @@
+﻿<CategoryCollection xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <CollectionContent>
+    <Category>
+      <CategoryName>catSchool</CategoryName>
+      <Excerpt i:nil="true" />
+      <GeneratedByProcessID i:nil="true" />
+      <ID>37a71d72-7ae9-4220-96cd-36f59ec9c3fa</ID>
+      <ImageData i:nil="true" />
+      <MasterETag>"0x8D158378A390CF7"</MasterETag>
+      <Name>Category</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <ParentCategory i:nil="true" />
+      <ParentCategoryID i:nil="true" />
+      <ReferenceToInformation i:nil="true" />
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/37a71d72-7ae9-4220-96cd-36f59ec9c3fa</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <Title>School</Title>
+    </Category>
+    <Category>
+      <CategoryName>catGossip</CategoryName>
+      <Excerpt>Unconfirmed rumors and exciting possibilities</Excerpt>
+      <GeneratedByProcessID i:nil="true" />
+      <ID>41488504-d4d1-47e9-bc02-f9cc5c42b30c</ID>
+      <ImageData i:nil="true" />
+      <MasterETag>"0x8D15430E1099AEC"</MasterETag>
+      <Name>Category</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <ParentCategory i:nil="true" />
+      <ParentCategoryID i:nil="true" />
+      <ReferenceToInformation i:nil="true" />
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/41488504-d4d1-47e9-bc02-f9cc5c42b30c</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <Title>Gossip</Title>
+    </Category>
+    <Category>
+      <CategoryName>catTruestories</CategoryName>
+      <Excerpt i:nil="true" />
+      <GeneratedByProcessID i:nil="true" />
+      <ID>7e1dbe6d-d594-4873-9d37-eb8c152cc92a</ID>
+      <ImageData i:nil="true" />
+      <MasterETag>"0x8D1791D78FAD9BC"</MasterETag>
+      <Name>Category</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <ParentCategory i:nil="true" />
+      <ParentCategoryID i:nil="true" />
+      <ReferenceToInformation i:nil="true" />
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/7e1dbe6d-d594-4873-9d37-eb8c152cc92a</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <Title>True stories</Title>
+    </Category>
+    <Category>
+      <CategoryName>catBusinessSpecial</CategoryName>
+      <Excerpt i:nil="true" />
+      <GeneratedByProcessID i:nil="true" />
+      <ID>a15b4bb7-6e42-4b44-8cbc-e0ddac598efc</ID>
+      <ImageData i:nil="true" />
+      <MasterETag>"0x8D18437B32424D1"</MasterETag>
+      <Name>Category</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <ParentCategory i:nil="true" />
+      <ParentCategoryID i:nil="true" />
+      <ReferenceToInformation i:nil="true" />
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/a15b4bb7-6e42-4b44-8cbc-e0ddac598efc</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <Title>Business Special</Title>
+    </Category>
+    <Category>
+      <CategoryName>catNews</CategoryName>
+      <Excerpt>News description...</Excerpt>
+      <GeneratedByProcessID i:nil="true" />
+      <ID>ab1311f9-0951-406c-a7d9-eb24528ebcf2</ID>
+      <ImageData i:nil="true" />
+      <MasterETag>"0x8D15417A5E5A248"</MasterETag>
+      <Name>Category</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <ParentCategory i:nil="true" />
+      <ParentCategoryID i:nil="true" />
+      <ReferenceToInformation i:nil="true" />
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/ab1311f9-0951-406c-a7d9-eb24528ebcf2</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <Title>News</Title>
+    </Category>
+    <Category>
+      <CategoryName>catImportant</CategoryName>
+      <Excerpt>Use this for notifications in the group</Excerpt>
+      <GeneratedByProcessID i:nil="true" />
+      <ID>ca2b303c-1cc3-4af1-9c30-90265b167bc0</ID>
+      <ImageData i:nil="true" />
+      <MasterETag>"0x8D15430AA114E45"</MasterETag>
+      <Name>Category</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <ParentCategory i:nil="true" />
+      <ParentCategoryID i:nil="true" />
+      <ReferenceToInformation i:nil="true" />
+      <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/ca2b303c-1cc3-4af1-9c30-90265b167bc0</RelativeLocation>
+      <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+      <Title>Important</Title>
+    </Category>
+  </CollectionContent>
+  <GeneratedByProcessID i:nil="true" />
+  <ID>33d6cea3-eb99-4fbb-b5cb-dd8833876feb</ID>
+  <IsCollectionFiltered>false</IsCollectionFiltered>
+  <MasterETag i:nil="true" />
+  <Name>CategoryCollection</Name>
+  <OrderFilterIDList xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/CategoryCollection/MasterCollection</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+</CategoryCollection>

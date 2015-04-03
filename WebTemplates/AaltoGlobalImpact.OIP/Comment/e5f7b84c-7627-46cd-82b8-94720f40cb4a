@@ -1,0 +1,21 @@
+﻿<Comment xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <CommentText>It aparently does</CommentText>
+  <Created>2014-05-15T07:22:14.6139478Z</Created>
+  <GeneratedByProcessID i:nil="true" />
+  <ID>e5f7b84c-7627-46cd-82b8-94720f40cb4a</ID>
+  <LastAuthorAccountID>ccd2e071-9df7-46c8-86a9-1d9da0cdb717</LastAuthorAccountID>
+  <LastAuthorEmail>kalle.launiala@protonit.net</LastAuthorEmail>
+  <LastAuthorName>Kalle Launiala</LastAuthorName>
+  <LastModified>2014-06-26T02:22:28.7549278Z</LastModified>
+  <MasterETag i:nil="true" />
+  <Name>Comment</Name>
+  <OriginalAuthorAccountID>71253f75-fb1a-44f2-9689-fb7c477085a6</OriginalAuthorAccountID>
+  <OriginalAuthorEmail>r.kiviranta@gmail.com</OriginalAuthorEmail>
+  <OriginalAuthorName>Roope Kiviranta</OriginalAuthorName>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Comment/e5f7b84c-7627-46cd-82b8-94720f40cb4a</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <TargetObjectDomain>AaltoGlobalImpact.OIP</TargetObjectDomain>
+  <TargetObjectID>917e20bd-94b5-40ae-9a2c-0023b61de2af</TargetObjectID>
+  <TargetObjectName>TextContent</TargetObjectName>
+</Comment>

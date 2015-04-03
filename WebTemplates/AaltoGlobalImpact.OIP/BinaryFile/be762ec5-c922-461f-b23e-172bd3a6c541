@@ -1,0 +1,26 @@
+﻿<BinaryFile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <Categories i:nil="true" />
+  <Data>
+    <AdditionalFormatFileExt i:nil="true" />
+    <ContentLength>381974</ContentLength>
+    <FileExt>.pdf</FileExt>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>0c541c0e-cca4-442c-ba96-61838108b73f</ID>
+    <MasterETag i:nil="true" />
+    <Name>MediaContent</Name>
+    <OriginalFileName>Building a Web Template on the OIP.pdf</OriginalFileName>
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/0c541c0e-cca4-442c-ba96-61838108b73f.pdf</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </Data>
+  <Description i:nil="true" />
+  <GeneratedByProcessID i:nil="true" />
+  <ID>be762ec5-c922-461f-b23e-172bd3a6c541</ID>
+  <MasterETag i:nil="true" />
+  <Name>BinaryFile</Name>
+  <OriginalFileName>Building a Web Template on the OIP.pdf</OriginalFileName>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/BinaryFile/be762ec5-c922-461f-b23e-172bd3a6c541</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <Title i:nil="true" />
+</BinaryFile>

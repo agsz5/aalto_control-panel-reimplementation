@@ -1,0 +1,36 @@
+{#LinkToContentsSource.LinkToContentCollection.CollectionContent}
+    <div class="cards cards-profile pull-left linkto">
+    <fieldset>
+        <div class="gallery" style="clear: both;">
+    <div class="element thumbnail pull-left sampleFilterOnefalse sampleFilterTwofalse">
+            {?ImageData}
+                <div style="max-width: 220px">
+                    <img src="../../AaltoGlobalImpact.OIP/MediaContent/{ImageData.ID}_64x64_crop{ImageData.AdditionalFormatFileExt}" />
+                </div>
+            {/ImageData}
+                <div class="clearfix"></div>
+                <div class="image-data">
+                    <span class="pull-right">
+                        {>"objectdeleteicon.dust" object_delete_title="{Title}" /}
+                    </span>
+                    <span class="pull-right">
+                        <a data-toggle="modal" role="button" class="open-linktocontenteditor" href="#" data-contentinfo="{RelativeLocation}:{MasterETag}"
+                            data-id="{ID}"
+                            {?ImageData}data-imageid="{ImageData.ID}" data-imageext="{ImageData.AdditionalFormatFileExt}" {/ImageData}
+                            {?URL}data-url="{URL}" {/URL}
+                            {?Title}data-title="{Title}" {/Title}
+                            {?Description}data-description="{Description}" {/Description}
+                            data-categories="{?Categories}{#Categories}{#CollectionContent}{ID},{/CollectionContent}{/Categories}{/Categories}"
+                            data-locations="{?Locations}{#Locations}{#CollectionContent}{ID},{/CollectionContent}{/Locations}{/Locations}"
+                            ><i class="icon-edit"></i></a></span>
+                    <div class="title" style="word-break: break-all">{URL}</div>
+                    <div class="title">{Title}</div>
+                    {?DescriptionRendered}<div class="title">{DescriptionRendered|s}</div>{/DescriptionRendered}
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </fieldset>
+</div>
+{/LinkToContentsSource.LinkToContentCollection.CollectionContent}
+

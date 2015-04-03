@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+
+
+    <title>Control Panel | Welcome</title>
+    <link rel="stylesheet" href="../assets/controlpanel/css/foundation.css" />
+    <link rel="stylesheet" href="../assets/controlpanel/css/style.css">
+    <link rel="stylesheet" href="../assets/controlpanel/css/jquery-te-1.4.0.css">
+    <link rel="stylesheet" type="text/css" media="all" href="../assets/controlpanel/css/whhg.css" />
+    <script src="../assets/controlpanel/js/modernizr.js"></script>
+
+</head>
+<body>
+
+<div class="row">
+<div class="large-12 columns">
+
+<!-- Navigation -->
+<div class="row">
+    <div class="contain-to-grid fixed">
+        <nav class="top-bar" data-topbar>
+            <ul class="title-area">
+                <li class="name">
+                </li><!-- Closes li class "name" -->
+
+                <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+            </ul>
+            <section class="top-bar-section">
+
+                <!-- Right Nav Section -->
+                <ul class="right">
+
+                    <li><a href="#" style="color:gray;">Mode:</a></li>
+
+                    <li class="has-dropdown"><a href="#">Tiles</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Timeline</a></li>
+                            <li><a href="#">Map</a></li>
+                        </ul> </li>
+                    <!--<li class="active"><a href="#">Right Button Active</a></li>-->
+                    <!--<li class="has-dropdown"><a href="#">Right Button with Dropdown</a>
+                      <ul class="dropdown">
+                        <li><a href="#">First link in dropdown</a></li>
+                      </ul> </li>   -->
+                </ul><!-- Ends the list of elements of the Right Top Navigation Bar-->
+
+                <!-- Left Nav Section -->
+                <ul class="left">
+                    <!--BEGINS All elements of the Top Navigation, Left, go here.... they use a "li" element -->
+                    <li class="has-dropdown"><a href="#" style="font-weight:bold;font-size:120%">New Global</a>
+                        <ul class="dropdown" id="site-dropdown-list">
+                        </ul><!-- Closes the dropdown elements in the Ul-->
+                    </li><!-- Closes the dropdown elements section New Global -->
+
+                    <li><a href="#" style="color:gray;">Showing:</a></li>
+
+                    <li class="has-dropdown"><a href="#">All</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Workspace</a></li>
+                            <li><a href="#">Pictures</a></li>
+                            <li><a href="#">Links</a></li>
+                            <li><a href="#">Documents</a></li>
+                        </ul> </li>
+                    <!--Hugo Filter list...<li>
+                      <dl class="sub-nav">
+                      <dt>Filter:</dt>
+                      <dd class="active"><a href="#">All</a></dd>
+                      <dd><a href="#">Workspace</a></dd>
+                      <dd><a href="#">Text</a></dd>
+                      <dd><a href="#">Pictures</a></dd>
+                      </dl>
+                    </li> ... Hugo Filter List ends-->
+
+
+                    <!-- Regular ORIGINAL element in the left navigation... <li><a href="#">Left Nav Button</a></li>...a button-->
+
+                    <!--ENDS All elements of the Top Navigation, Left, go here.... they use a "li" element -->
+                </ul><!-- Closes the Ul class "left" section -->
+            </section>
+        </nav>
+        <!-- End Top Bar -->
+    </div>
+</div>
+
+<!-- End Navigation -->
+<div class="row"> <!-- Hugo: Begins...Created a row to separate topNav Bar with the rest-->
+    <div class="large-12 small-12 columns">
+        <hr>
+    </div>
+
+
+    <!-- Side Bar -->
+    <div class="large-12 small-12 columns">
+        <dl class="tabs vertical" data-tab>
+            <dd class="active"><a href="#contentPanel" id="contentPanelTab"><i class="icon-mailinglists" style="font-size: 70%; font-weight: normal;"></i>&nbsp;Content</a></dd>
+            <dd><a href="#categoriesPanel" id="categoriesPanelTab"><i class="icon-menu" style="font-size: 70%; font-weight: normal;"></i>&nbsp;Categories</a></dd>
+            <dd><a href="#groupSettingsPanel"><i class="icon-settingstwo-gearalt" style="font-size: 70%; font-weight: normal;"></i>&nbsp;Group Settings</a></dd>
+            <dd><a href="#filePanel" id="fileTab">File Manager</a></dd>
+        </dl>
+
+        <div class="tabs-content vertical">
+            <!-- Starts content for contentPanel-->
+            <div class="content active" id="contentPanel" style="min-height:500px;">
+                <div class="row" id="isotope_content_row">
+                    <div id="ModalsHolderDiv-Content">
+                        <div id="addNewContentModal" class="reveal-modal medium" data-reveal>
+                            <h2>Adding a new update</h2>
+
+                            <div class="row">
+                                <div class="large-6 columns">
+                                    <div style="width: 100%; height: auto;margin: 0px;padding: 0px;">
+                                        <form id="form-addNewContentModal-imageUpload" action='new_content.php' method='POST' enctype='multipart/form-data'>
+                                            <div id="addNewContentModal-image" style="width: 100%; height: 300px; background-color:#d4d4d4; text-align: center;"></div>
+                                            <div class="large-6 columns"><span data-tooltip class="has-tip" title="Here you can choose the Cover Photo for your Update" id="tooltip-choosePhotoHere"><input type ='file' name='myfile' id="addNewContent-fileInput"></span><p></div>
+                                            <span data-tooltip class="has-tip" title="Click here to upload and preview your photo" id="tooltip-uploadphoto" style="float: right; height:56px;"><a class="button" id="addNewContentModal-imageUpload-submit" >Upload Photo</a></span>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="large-6 columns">
+                                    <div style="width: 100%; height: auto;margin: 0px;padding: 0px;">
+                                        <form id="form-addNewContentModal" method='POST' enctype='multipart/form-data' data-abide="ajax">
+                                            <div class="title-field"><label>Title<input type="text" id="addNewContentModal-title" required/></label><small class="error">A title to this update is required.</small></div>
+                                            <div class="excerpt-field"><label>Excerpt<input type="text" id="addNewContentModal-excerpt" required/></label><small class="error">An excerpt to this update is required.</small></div>
+                                            <div class="author-field"><label>Author<input type="text" id="addNewContentModal-author" required/></label><small class="error">Please type the author of this update.</small></div>
+                                            <div class="categories-field"><label>Category
+                                                    <select id="addNewContentCategorySelect">
+                                                    </select>
+                                                </label>
+                                            </div>
+                                            <!--<div class="categories-field"><label>Categories</label> <input type="text" id="addNewContentModal-categories"/></div>-->
+                                            <div class="hide"><label>ID</label><input type="text" class="hide" id="addNewContentModal-id"/></div>
+                                            <div class="hide"><label>Image Path</label>   <input type="text" class="hide" id="addNewContentModal-imagePath"/></div>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="large-12 columns right textAreaEditorDiv"><label>Content</label>
+<!--
+                                    <textarea id="addNewContentModal-content" cols="50"style="height: 300px;"></textarea>
+                                   <textarea cols="50" id="area4">HTML <b>content</b> <i>default</i> in textarea</textarea>
+-->
+                                    <textarea id="addNewContentModal-content" style="height: 600px;" name="content"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row" style="margin-top: 20px;">
+                                <div class="large-12 columns">
+                                    <a class="button" id="cancelAddNewContentModal" style="float: right;">Cancel</a><div style="width: 10px;float: right;">&nbsp;</div>
+                                    <a class="button" id="addNewContentModal-submit" style="float: right;">Submit</a>
+                                </div>
+                            </div>
+
+                            <a class="close-reveal-modal">&#215;</a>
+                        </div>
+                        <div id="editContentModal" class="reveal-modal medium" data-reveal>
+                            <h2>Editing content</h2>
+                            <div class="row">
+                                <div class="large-6 columns"><div style="width: 100%; height: auto;margin: 0px;padding: 0px;">
+                                        <form id="form-editContentModal-imageUpload" action='new_content.php' method='POST' enctype='multipart/form-data'>
+                                            <div id="editContentModal-image" style="width: 100%; height: 300px; background-color:#d4d4d4; text-align: center;"></div>
+                                            <div class="large-6 columns"><span data-tooltip class="has-tip" title="Here you can choose the Cover Photo for your Update" id="tooltip-choosePhotoHere2"><input type ='file' name='myfile' id="addNewContent-fileInput2"></span><p></div>
+                                            <span data-tooltip class="has-tip" title="Click here to upload and preview your photo" id="tooltip-uploadphoto2" style="float: right; height:56px;"><a class="button" id="addNewContentModal-imageUpload-submit2" >Upload Photo</a></span>
+                                        </form></div>
+                                </div>
+                                <div class="large-6 columns">
+                                    <div style="width: 100%; height: auto;margin: 0px;padding: 0px;">
+                                        <form id="form-editContentModal" method='POST' enctype='multipart/form-data' data-abide="ajax">
+                                            <div class="title-field"><label>Title<input type="text" id="editContentModal-title" required/></label><small class="error">A title to this update is required.</small></div>
+                                            <div class="excerpt-field"><label>Excerpt<input type="text" id="editContentModal-excerpt" required/></label><small class="error">An excerpt to this update is required.</small></div>
+                                            <div class="author-field"><label>Author<input type="text" id="editContentModal-author"></label></div>
+                                            <div class="categories-field"><label>Category <select id="editContentModal-categories"></select></label></div>
+                                            <div class="hide"><label>ID</label><input type="text" class="hide" id="editContentModal-id"/></div>
+                                            <div class="hide"><label>Image Path</label><input type="text" class="hide" id="editContentModal-imagePath"/></div>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row"><div class="large-12 columns right textAreaEditorDiv"><label>Content</label><div id="editTextareaDivHolder"></div></div></div>
+
+                            <div class="row" style="margin-top: 20px;"><div class="large-12 columns">
+                                    <a class="button" id="cancelEditContentModal" style="float: right;">Cancel</a><div style="width: 10px;float: right;">&nbsp;</div>
+                                    <a class="button" id="editContentModal-submit" style="float: right;">Submit</a></div>
+                            </div>
+                        <a class="close-reveal-modal">&#215;</a>
+                        </div>
+                        <div id="viewContentModal" class="reveal-modal medium" data-reveal>
+                            <!--Begins contents of  div for the viewContentModal-->
+                            <div class="row">
+                                <div class="large-4 columns" id="viewContentModal-image"></div>
+                                <div class="large-8 columns">
+                                    <div class="itemWrapper-fixedWidth" style="padding-right: 10px;padding-bottom: 5px;"><span id="viewContentModal-categories" class="fancyTagBig"></span></div>
+                                    <div class="itemWrapper-fixedWidth" style="padding-right: 10px;padding-bottom: 5px;"><i class='icon-pencil fancyTextColor font80'></i>&nbsp;<span id="viewContentModal-Author" class="discreetLinks"></span></div>
+                                    <div class="itemWrapper-fixedWidth" style="padding-right: 10px;padding-bottom: 5px;"><i class='icon-calendaralt-cronjobs fancyTextColor font80'></i>&nbsp;<span id="viewContentModal-Date" class="discreetLinks"></span></div>
+                                </div>
+                                <div class="large-8 columns" style="padding-right:0;padding-top: 0;padding-bottom:0;"><div class="content-card-line"><hr></div></div>
+                                <div class="large-8 columns" style="padding-bottom: 12px;padding-right:10px;padding-top:10px;"><strong><span id="viewContentModal-title" class="hugeTitleText"></span></strong><br></div>
+                                <div class="large-8 columns" style="padding-right:15px;"><span  id="viewContentModal-excerpt" class="contentCardExcerpt bigTitleText discreetTextColor"></span></div>
+                            </div>
+                            <div class="row">
+                                <div class="large-12 columns" style="height:20px;"></div>
+                            </div>
+                            <div class="row">
+                                <div class="large-12 columns articleText" id="viewContentModal-content" style="padding-left: 15px !important; padding-right: 15px !important;"></div>
+                            </div>
+                            <div class="row">
+                                <div class="large-12">
+                                    <br>
+                                    <a class="button" id="closeViewContentModal" style="float:right !important;">Close</a>
+                                </div>
+                            </div>
+                            <a class="close-reveal-modal">&#215;</a>
+                        </div> <!--closes div for the viewContentModal-->
+                        <div id="alert-contentUpdate-successful" class="reveal-modal medium" data-reveal>
+                            <h3>The content was updated successfully.
+                            </h3>
+                            <p id="alert-contentUpdate-successful-variables" style="font-size: 85%;"></p>
+                            <a id="close-alert-contentUpdate-successful" class="close-reveal-modal">&#215;</a>
+                        </div>
+                        <div id="alert-addNewContent-successful-modal" class="reveal-modal medium" data-reveal>
+                            <h3>The new content was sent successfully.
+                            </h3>
+                            <p id="alert-addNewContent-successful-variables" style="font-size: 85%;"></p>
+                            <a id="close-alert-addNewContent-successful" class="close-reveal-modal">&#215;</a>
+                        </div>
+                    </div>
+                    <!-- +++Isotope content starts +++++++++++++++++++++++++++++++++++++++++++++ -->
+                    <div class="portfolioFilter" id="portfolioFilterDivContainer"></div>
+                    <div class="large-12 columns" id="contentDivContainer" style="width:100%; margin: auto !important;"></div>
+                    <!-- +++Isotope content ends +++++++++++++++++++++++++++++++++++++++++++++ -->
+                </div>
+            </div>
+            <!--Ends content for contentPanel -->
+
+            <!--Starts content for Tab "categories-panel" -->
+            <div class="content" id="categoriesPanel" style="min-height:500px;"></div>
+            <!--Ends content for categories-panel -->
+
+            <!-- Starts content for groupSettingsPanel -->
+            <div class="content" id="groupSettingsPanel" style="min-height:500px;">
+                <h2> Current Memberships: </h2>
+                <table id="groups-table">
+                    <tr>
+                        <th>Group</th>
+                        <th>Site</th>
+                    </tr>
+                </table>
+
+                <div id="create-group-modal" class="reveal-modal" data-reveal>
+                    <h2>Creating a new group</h2>
+                    <p class="lead">Just a couple of fields away</p>
+
+                    <form>
+                        <div class="row">
+                            <div class="large-12 columns"><label>Group name</label> <input type="text"
+                                                                                           placeholder="e.g. Aalto Bowling Association" id="form_new_group_name"/>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="large-12 columns"><label>URL</label> <input type="text"
+                                                                                    placeholder="e.g. www.aaltobowling.fi" id="form_new_group_url"/>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="large-12 columns"><label>Notes</label> <textarea
+                                    placeholder="Tell us a little something about the group"></textarea></div>
+                        </div>
+                        <a href="#" class="button" id="create-group-submit">Create</a>
+                    </form>
+
+                    <a id="close-create-group-modal-button" class="close-reveal-modal">&#215;</a>
+                </div>
+                <div id="alert-groupadded-successful" class="reveal-modal" data-reveal>
+                    <h3>The new group was added successfully.
+                    </h3>
+                    <a id="close-alert-groupadded-successful" class="close-reveal-modal">&#215;</a>
+
+                </div>
+
+                <a href="#" class="button" id="create-group-button">Add New</a>
+            </div>
+            <!-- Ends content for groupSettingsPanel -->
+
+            <!-- Starts content for file Manager Panel -->
+            <div class="content" id="filePanel" style="min-height:500px;">
+                <!--<h2>Test Results:</h2>
+                <div class="panel">
+                <div id="testPanelGo"></div>
+                </div>
+                <p><a href="" class="button" id="executeTestButton">GO!</a></p>-->
+                <h3>Uploading images or files</h3>
+
+                <div class="row">
+                    <div class="large-6 columns">
+                        <div style="width: 100%; height: auto;margin: 0px;padding: 0px;">
+                            <form id="form-addNewfile-fileUpload" action='new_file.php' method='POST' enctype='multipart/form-data'>
+                                <div id="addNewfile-image" style="width: 100%; height: 300px; background-color:#d4d4d4; text-align: center;"></div>
+                                <div class="large-6 columns"><input type ='file' name='myfile' id="addNewfile-fileInput"><p></div>
+                                <!--<a class="button" id="addNewContentModal-imageUpload-submit">Upload Photo</a>-->
+                            </form>
+                        </div>
+                    </div>
+                    <div class="large-6 columns">
+                        <div style="width: 100%; height: auto;margin: 0px;padding: 0px;">
+                            <form id="form-addNewFileForm" method='POST' enctype='multipart/form-data' data-abide="ajax">
+                                <label>Description
+                                    <textarea id="form-addNewFileForm-description" placeholder="(optional)"></textarea>
+                                </label>
+                                <div class="row" style="margin-top: 20px;">
+                                    <div class="large-12 columns">
+                                        <a class="button" id="submitform-addNewFileForm" style="float: right;">Submit</a><div style="width: 10px;float: right;">&nbsp;</div>
+                                        <a class="button" id="preview-addNewFileForm" style="float: right;">Preview (photo)</a>
+
+                                    </div>
+                                </div>
+                                <div class="hide"><label>ID</label><input type="text" class="hide" id="form-addNewFileForm-id"/></div>
+                                <div class="hide"><label>Name</label><input type="text" class="hide" id="form-addNewFileForm-name"/></div>
+                                <div class="hide"><label>Upload Date</label><input type="text" class="hide" id="form-addNewFileForm-uploadDate"/></div>
+                                <div class="hide"><label>URL</label><input type="text" class="hide" id="form-addNewFileForm-URL"/></div>
+                                <div class="hide"><label>Extension</label><input type="text" class="hide" id="form-addNewFileForm-extension"/></div>
+                                <div class="hide"><label>Local Path</label><input type="text" class="hide" id="form-addNewFileForm-localPath"/></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-12 columns" id="fileTableDivContainer">
+                    </div>
+                </div>
+
+            </div><!--Closes FilePanel  -->
+
+         </div>
+            <!-- Ends content for file Manager Panel -->
+
+        </div>
+        <!--Ends div class for the side bar, large 12 columns, small 12 columns-->
+        <!-- End Side Bar -->
+
+    </div>
+</div>
+</div>
+
+
+<!-- Footer -->
+<footer class="row">
+    <div class="large-12 columns"><hr />
+        <div class="row">
+
+            <div class="large-6 columns">
+                <p>© Copyright Aalto New Global.</p>
+            </div>
+
+            <div class="large-6 columns">
+                <ul class="inline-list right">
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
+
+</div>
+
+
+<script src="../assets/controlpanel/js/jquery.js"></script>
+<script src="../assets/controlpanel/js/foundation.min.js"></script>
+<script src="../assets/controlpanel/js/jquery.isotope.js" type="text/javascript"></script>
+<script src="../assets/controlpanel/js/jquery.form.min.js"></script>
+<script src="../assets/controlpanel/js/redactor.min.js"></script>
+<script src="../assets/controlpanel/js/jquery.htmlClean.min.js "></script>
+<script src="../assets/controlpanel/js/markdowndeep/MarkdownDeepLib.min.js"></script>
+<script src="../assets/oiplib1.0/TheBall.Interface.UI/TemplateModuleManager.js"></script>
+<script src="../assets/oiplib1.0/TheBall.Interface.UI/DataConnectionManager.js"></script>
+<script src="../assets/oiplib1.0/TheBall.Interface.UI/OperationManager.js"></script>
+<link rel="stylesheet" href="../assets/controlpanel/css/redactor.css" />
+
+
+<!--<script src="js/nicEdit.js"></script>-->
+<!--<script src="js/jquery-te-1.4.0.min.js"></script>-->
+
+<script>
+    $(document).foundation(
+            {
+                reveal : {
+                    animation: 'fadeAndPop',
+                    animation_speed: 250,
+                    close_on_background_click: false
+                }
+
+            }
+    );
+</script>
+
+<script>
+    $(document).ready(function(){
+        $.ajaxSetup({cache: false});
+
+            $('#addNewContentModal-content').redactor(
+                    {   minHeight: 300,
+                        buttons: ['bold', 'italic','alignment','unorderedlist', 'orderedlist','image', 'video', "link"]
+                    });
+
+        $.when(get_content()).then(function(){populateWebsitesMenu_and_groupsTabTable ();start_isotope();setInterval(reLayout_isotope, 2000); console.log( "Isotope fired after getting content, succeed" );}).fail(function(){console.log( "something went wrong with getting the content" );});
+        $("#contentDivContainer").delegate("#addNewContentDiv",{ click: reveal_addNewContentModal } );
+        $("#contentDivContainer").delegate(".editContentButton",{ click: editContent_PopulateModal} );
+        $("#contentDivContainer").delegate(".viewContentButton",{ click: viewContent } );
+        $("#portfolioFilterDivContainer").delegate("a",{ click: filter_isotope_items } );
+        $("#addNewContent-fileInput ").change(function (){ triggerToolTipUploadPhoto(); });
+        /*$("input:file").change(function (){ triggerToolTipUploadPhoto(); });*/
+        $(document).on('close','[data-reveal]', reLayout_isotope);
+        $("#contentPanelTab").on('click mouseover',setTimeout('reLayout_isotope', 2000));
+        $("#addNewContentModal-submit").on('click', submit_New_Content_Form);
+        $("#fileTab").on('click', get_files);
+        $("#cancelAddNewContentModal").on('click', close_NewContent_Modal_Form);
+        $("#create-group-submit").on('click', submit_New_Group);
+        $("#addNewContentModal-imageUpload-submit").on('click', upload_addNewContentModalForm_picture);
+        $("#addNewContentModal-imageUpload-submit2").on('click', upload_editedContentModalForm_picture);
+        $("#preview-addNewFileForm").on('click', upload_newFile);
+        $("#submitform-addNewFileForm").on('click',upload_newFile);
+        /*$("#submitform-addNewFileForm").on('click', upload_newFile);*/
+        $("#contentDivContainer").on('mouseover',reLayout_isotope);
+        $("#executeTestButton").on('click', getAndPopulate_Isotope_Filter_Categories);
+        $("#editContentModal-submit").on('click', submit_EditedContent_to_Server);
+        $("#cancelEditContentModal").click(function () {$('#editContentModal').foundation('reveal', 'close');});
+        $("#closeViewContentModal").click(function () { $('#viewContentModal').foundation('reveal', 'close');});
+        $("#create-group-button").click(function () {$('#create-group-modal').foundation('reveal', 'open');});
+
+        var tUI = TheBall.Interface.UI;
+        var tOP = new tUI.OperationManager();
+
+        function test(){
+            alert ("triggered!");
+        }
+
+        function populateWebsitesMenu_and_groupsTabTable (){
+            // This was previously called "populate_groups_table"...first we initialize (clear) the table:
+            $("#groups-table td").remove();
+            //--begins: Populating the list of websites TopLeft Navbar and Populates the GroupTables on the Groups TAB
+            $.getJSON('json/site_settings.json', function(data) {
+                var output="";
+                var output2="";
+                for (var i in data.sites) {
+                    //noinspection JSUnfilteredForInLoop
+                    output+="<li><a href='" + data.sites[i].url + "' target='_blank' style='text-transform:capitalize !important;'>" +
+                            data.sites[i].name + "</a></li>";
+                    output2+="<tr><td style='text-transform:capitalize !important;'>" + data.sites[i].name + "</td>" +
+                            "<td style='text-transform:lowercase !important;'>" + data.sites[i].url+"</td></tr>";
+                }//ends for loop
+                $("#groups-table").append(output2);
+                $("#site-dropdown-list").append(output);
+            })
+        }//--ends: Populating the list of websites TopLeft Navbar and Populates the GroupTables on the Groups TAB
+
+        function submit_EditedContent_to_Server() {
+            var edited_content_id = $("#editContentModal-id").val();
+            var edited_content_title = $("#editContentModal-title").val();
+            var edited_content_image = $("#editContentModal-imagePath").val();
+            var edited_content_excerpt = $("#editContentModal-excerpt").val();
+            var edited_content_author = $("#editContentModal-author").val();
+            /*var edited_content_categories = $("#editContentModal-categories").val();*/
+            var edited_content_categories = $("#editContentModal-categories option:selected").text();
+            var edited_content_content = $("#editContentModal-content").val();
+
+            $.ajax({
+                global: false,
+                type: "POST",
+                //async: false,
+                dataType: "json",
+                data: ({
+                    id: edited_content_id,
+                    title: edited_content_title,
+                    excerpt: edited_content_excerpt,
+                    image: edited_content_image,
+                    content: edited_content_content,
+                    categories: edited_content_categories,
+                    author: edited_content_author
+                }),
+                url: 'update_content.php'
+            });
+            var replace_id="contentCardDataId-";
+            replace_id+=edited_content_id;
+            var new_EditedContent="";
+            $('#'+replace_id).empty();
+            //new_EditedContent+="<div class='content-card "+edited_content_categories+"' id='contentCardDataId-"+edited_content_id+"'>";
+            new_EditedContent+="<img src='"+edited_content_image+"' alt='image' id='contentCardImage-dataID-"+edited_content_id+"'/>";
+            new_EditedContent+="<div class='content-card-title' id='contentCardTitle-dataID-"+edited_content_id+"'><span style='font-size: 120%;'><strong>"+edited_content_title+"</strong></span></div>";
+            new_EditedContent+="<div class='content-card-options'><a class='editContentButton' id='editContentButton-dataID-"+edited_content_id+"'>Edit&nbsp;</a><a class='viewContentButton' id='viewContentButton-dataID-"+edited_content_id+"'>&nbsp;View&nbsp;</a><a id='trashContentButton-dataID-"+edited_content_id+"'>&nbsp;Trash&nbsp;</a><a class='content-card-options-right' id='toggleVisibilityContentButton-dataID-"+edited_content_id+"'><i class='icon-eye-open' style='font-size:110%;'></i></a></div>";
+            new_EditedContent+="<div class='content-card-line'><hr></div>";
+            new_EditedContent+="<div class='content-card-options'><a><i class='icon-pencil'></i>&nbsp;</a><a id='contentAddCommentButton-dataID-"+edited_content_id+"'>&nbsp;Comment&nbsp;</a><a class='content-card-options-right' id='contentNumberOfComments-dataID-"+edited_content_id+"'><i class='icon-commentround'></i></a></div>";
+            $('#'+replace_id).append(new_EditedContent);
+            $('#alert-contentUpdate-successful-variables').empty();
+            $('#alert-contentUpdate-successful-variables').append("Record ID: "+edited_content_id+"<br>"+
+                    "Title: "+edited_content_title+"<br>"+
+                    "Excerpt: "+edited_content_excerpt+"<br>"+
+                    "Image Path: "+edited_content_image+"<br>"+
+                    "Categories: "+edited_content_categories);
+            $('#editContentModal-content').redactor('destroy');
+            $('#editContentModal').foundation('reveal', 'close');
+            setTimeout(function() {
+                $('#alert-contentUpdate-successful').foundation('reveal', 'open');
+                return false;
+            }, 1500);
+        }
+
+        function editContent_PopulateModal(editEvent)   {
+            var clickedEditID= editEvent.target.id.replace("editContentButton-dataID-", '');
+            $.getJSON('../../AaltoGlobalImpact.OIP/TextContent/'+clickedEditID+".json", function(contentData) {
+                var queryValue="";
+                var currentObject=contentData;
+                var currentID=currentObject.ID;
+                var currentTitle=currentObject.Title;
+                var currentExcerpt=currentObject.Excerpt;
+                var currentAuthor=currentObject.Author;
+                var currentPublishedDate=currentObject.Published;
+
+                if(currentObject.RawHtmlContent) {
+                    currentObject.BodyRendered = currentObject.RawHtmlContent;
+                } else {
+                    markdown = new MarkdownDeep.Markdown();
+                    markdown.SafeMode = true;
+                    currentObject.BodyRendered = markdown.Transform(currentObject.Body);
+                }
+
+                var currentArticleBody=currentObject.BodyRendered;
+
+                var imageSizeString="256";
+                var currentImagePath=currentObject.ImageData
+                        ? "../../AaltoGlobalImpact.OIP/MediaContent/" + currentObject.ImageData.ID + "_" + imageSizeString + "x" + imageSizeString + "_crop" + currentObject.ImageData.AdditionalFormatFileExt
+                        : null;
+                var currentMainCategory="News";
+
+                        queryValue=clickedEditID;
+                        $('#editContentModal-id').val(queryValue);
+                        $('#editContentModal-title').val(currentTitle);
+                        $('#editContentModal-excerpt').val(currentExcerpt);
+
+                        getAndPopulate_Isotope_Filter_Categories ();
+
+                        //check if the "field" Author exists in the JSON file
+                        /*queryValue=contentData.content[i].Author;*/
+                        if(currentAuthor == false || currentAuthor ===null || currentAuthor ==="undefined" || currentAuthor ===undefined)
+                        queryValue="Empty";
+                        else
+                        queryValue=currentAuthor;
+
+                        $('#editContentModal-author').val(queryValue);
+
+                        queryValue=currentArticleBody;
+                        $('#editTextareaDivHolder').empty();
+                        var textarea = $("<textarea id='editContentModal-content' style='min-height: 300px;'>");
+                        $('#editTextareaDivHolder').append(textarea);
+                        $('#editContentModal-content').val(queryValue);
+                        $('#editContentModal-content').redactor(
+                                {   minHeight: 300,
+                                    buttons: ['bold', 'italic','alignment','unorderedlist', 'orderedlist','image', 'video', "link"]
+                                });
+
+                        queryValue=currentImagePath;
+                        $('#editContentModal-imagePath').val(queryValue);
+
+                        //send the correspondent image to the placeholder, but clean its containing div first
+                        $("#editContentModal-image").empty(); //clean the image Placeholder in the form
+                        queryValue = "<img src='"+currentImagePath+"' style='height:100%;width:auto;margin-left:auto;margin-right:auto;'>";
+                        $("#editContentModal-image").append(queryValue);
+            }) //ends getJson
+            $('#form-editContentModal-imageUpload').ajaxForm(); //initializes the Form to Upload a new Photo, should the user choose to change it
+            $('#editContentModal').foundation('reveal', 'open');
+        }//ends function editContent
+
+        function viewContent(editEvent) {
+            var clickedEditID= editEvent.target.id.replace("viewContentButton-dataID-", '');
+            $.getJSON('../../AaltoGlobalImpact.OIP/TextContent/'+clickedEditID+".json", function(contentData) {
+                var queryValue="";
+                var currentObject=contentData;
+                var currentID=currentObject.ID;
+                var currentTitle=currentObject.Title;
+                var currentExcerpt=currentObject.Excerpt;
+                var currentAuthor=currentObject.Author;
+                var imageSizeString="256";
+                var currentMainCategory;
+                var currentPublishedDate=currentObject.Published;
+                var recordedJsonDate;
+                var pattern;
+                var extractedDate;
+                var rawbody=currentObject.Body;
+                var currentImagePath=currentObject.ImageData
+                        ? "../../AaltoGlobalImpact.OIP/MediaContent/" + currentObject.ImageData.ID + "_" + imageSizeString + "x" + imageSizeString + "_crop" + currentObject.ImageData.AdditionalFormatFileExt
+                        : null;
+
+                if ((currentObject.Author===null)||(!currentObject.Author)){currentAuthor="Aalto Global Impact";}
+                else {currentAuthor=currentObject.Author;}
+
+                if(currentObject.RawHtmlContent) { currentObject.BodyRendered = currentObject.RawHtmlContent;}
+                else { markdown = new MarkdownDeep.Markdown();markdown.SafeMode = true; currentObject.BodyRendered = markdown.Transform(currentObject.Body);}
+                var currentArticleBody=currentObject.BodyRendered;
+
+                //This section processes the "PublishedDate" field on JSON, to the format: DD.MM.YY
+                recordedJsonDate = currentPublishedDate;
+                pattern = /[0-9]+/; //to find the number within the string, first occurrence.
+                recordedJsonDate = (recordedJsonDate.match(pattern))/1000;
+                extractedDate= new Date(1000*recordedJsonDate);
+                currentPublishedDate = extractedDate.getDate()+".";
+                currentPublishedDate+= extractedDate.getMonth()+".";
+                currentPublishedDate+= extractedDate.getFullYear();
+                //ends processing the "PublishedDate" field on JSON, to the format: DD.MM.YY
+
+                //cleaning the "old" articles with markdown and extra styling
+                rawbody=rawbody.replace(new RegExp("div", "g"), 'p');
+                rawbody=rawbody.replace(new RegExp("<span>", "g"), '');
+                rawbody=rawbody.replace(new RegExp("</span>", "g"), '');
+                var currentArticleBodyVHugo =$.htmlClean(rawbody, {format:true});
+                //ends cleaning the "old" articles with markdown and extra styling
+
+
+                        $("#viewContentModal-title").empty();
+                        $('#viewContentModal-title').append(currentTitle);
+
+                        $("#viewContentModal-Author").empty();
+                        $('#viewContentModal-Author').append(currentAuthor);
+
+                        $("#viewContentModal-Date").empty();
+                        $('#viewContentModal-Date').append(currentPublishedDate);
+
+                        queryValue="<p>"+currentExcerpt+"</p>";
+                        $("#viewContentModal-excerpt").empty();
+                        $('#viewContentModal-excerpt').append(queryValue);
+
+                        if(currentObject.Categories == false || currentObject.Categories.CollectionContent == false)
+                            currentMainCategory="NEWS";
+                        else
+                            currentMainCategory=currentObject.Categories.CollectionContent[0].Title;
+                        $("#viewContentModal-categories").empty();
+                        $('#viewContentModal-categories').append(currentMainCategory);
+
+                        $("#viewContentModal-content").empty();
+                        $('#viewContentModal-content').append(currentArticleBodyVHugo);
+
+                        //send the correspondent image to the placeholder, but clean its containing div first
+                        $("#viewContentModal-image").empty(); //clean the image Placeholder in the form
+                        queryValue = "<img src='"+currentImagePath+"' style='width:auto;height:auto;max-width:350;max-height:450px;margin-left:auto;margin-right:auto;'>";
+                        $("#viewContentModal-image").append(queryValue);
+
+                $('#viewContentModal').foundation('reveal', 'open');
+            })//ends getJson
+        }//Ends Function ViewContent
+
+        function reLayout_isotope() {
+            var $container = $('#contentDivContainer');
+            $container.isotope( 'reLayout');
+        }
+
+        //--begins: Function get_content
+        function get_content(){
+            $("#contentDivContainer").empty();
+            return $.getJSON('../../AaltoGlobalImpact.OIP/TextContentCollection/MasterCollection.json', function(contentData) {
+                var user_content="";
+                user_content+="<a><div class='addNewContent' id='addNewContentDiv'><div class='content-card-options'><span style='font-size:1100%;color:#ffffff;font-weight:900; line-height:100px;'>+</span></div>";
+                user_content+="<div class='content-card-options'><span class='addNewContentTitle'>Add update</span></div>";
+                user_content+="<div class='content-card-options'><span class='addNewContentSubtitle'>(Text, picture or embedded media)</span></div></div></a>";
+
+                for (var i in contentData.CollectionContent) {
+                    //noinspection JSUnfilteredForInLoop
+                    /*var aproxCardSize=contentData.content[i].calculatedCardHeight;
+                    if(! aproxCardSize || aproxCardSize==0 || aproxCardSize<210 ){
+                    aproxCardSize=210;
+                    };*/
+                    var currentObject=contentData.CollectionContent[i];
+
+                    if ((currentObject.Title===null)||(!currentObject.Title)||(currentObject.Categories===null))
+                    {}
+                    else
+                    {
+                    var aproxCardSize=210;
+                    var currentID=currentObject.ID;
+                    var currentTitle=currentObject.Title;
+                    var currentExcerpt=currentObject.Excerpt;
+                    var currentAuthor=currentObject.Author;
+                    var currentPublishedDate=currentObject.Published;
+
+                    var imageSizeString="256";
+                    var currentImagePath=currentObject.ImageData
+                            ? "../../AaltoGlobalImpact.OIP/MediaContent/" + currentObject.ImageData.ID + "_" + imageSizeString + "x" + imageSizeString + "_crop" + currentObject.ImageData.AdditionalFormatFileExt
+                            : null;
+
+                    var currentMainCategory;
+
+                        if(currentObject.Categories == false || currentObject.Categories.CollectionContent == false)
+                            currentMainCategory="NEWS";
+                        else
+                            currentMainCategory=currentObject.Categories.CollectionContent[0].Title;
+
+                    user_content+="<div class='content-card "+currentMainCategory+"' id='contentCardDataId-"+currentID+"' style='min-height:"+aproxCardSize+"px'>";
+                    user_content+="<img src='"+currentImagePath+"' alt='image' id='contentCardImage-dataID-"+currentID+"'/>";
+                    user_content+="<div class='content-card-title' style='font-size:95%; font-weight:bold; color:#000000;' id='contentCardTitle-dataID-"+currentID+"'>"+currentTitle+"</div>";
+                    user_content+="<div class='content-card-options'><a class='editContentButton' id='editContentButton-dataID-"+currentID+"'>Edit&nbsp;</a><a class='viewContentButton' id='viewContentButton-dataID-"+currentID+"'>&nbsp;View&nbsp;</a><a id='trashContentButton-dataID-"+currentID+"'>&nbsp;Trash&nbsp;</a><a class='content-card-options-right' id='toggleVisibilityContentButton-dataID-"+currentID+"'><i class='icon-eye-open' style='font-size:110%;'></i></a></div>";
+                    user_content+="<div class='content-card-line'><hr></div>";
+                    user_content+="<div class='content-card-options'><a><i class='icon-pencil'></i>&nbsp;</a><a id='contentAddCommentButton-dataID-"+currentID+"'>&nbsp;Comment&nbsp;</a><a class='content-card-options-right' id='contentNumberOfComments-dataID-"+currentID+"'><i class='icon-commentround'></i></a></div>";
+                    user_content+="</div>";
+                    }//closes ELSE if Title is not null, and categories not null, etc
+                }//ends for loop
+                $("#contentDivContainer").append(user_content).isotope('reLayout');
+            })//closes getJSON
+        }
+        //--ends function get_content();
+        function get_files(){
+            $("#fileTableDivContainer").empty();
+            $('#form-addNewfile-fileUpload').ajaxForm();//initializes the FILE Upload Form
+            return $.getJSON('json/files.json', function(contentData) {
+                var file_table="";
+                file_table+="<table style='table-layout:fixed;width:100%;'><thead><tr><th style='width:20%;max-width: 130px;'>Preview</th><th class='breakwords'>URL</th><th>Description</th><th>Uploaded</th></tr></thead><tbody>";
+                for (var i in contentData.fileRepository) {
+                    //noinspection JSUnfilteredForInLoop
+                    if( (contentData.fileRepository[i].extension=="jpg") ||
+                        (contentData.fileRepository[i].extension=="jpeg")||
+                        (contentData.fileRepository[i].extension=="png") ||
+                        (contentData.fileRepository[i].extension=="tiff")||
+                        (contentData.fileRepository[i].extension=="gif")) {
+                        file_table+="<tr><td style='width:20%;max-width: 130px;'><div style='width: 100%;'><img src='"+contentData.fileRepository[i].local_path+"' style='max-width:120px;width:100%;height:auto;'></div></td>";
+                    }
+                    else
+                    file_table+="<tr><td class='breakwords' style='width:20%;max-width: 130px;'><a href='"+contentData.fileRepository[i].URL+"' style='font-size: 150%;' target='_blank'>"+contentData.fileRepository[i].extension+"</a></td>";
+
+                    file_table+="<td class='breakwords' style='width:150px;vertical-align: top;'>"+contentData.fileRepository[i].URL+"</td>";
+                    file_table+="<td style='vertical-align: top;'>"+contentData.fileRepository[i].description+"</td>";
+                    file_table+="<td style='vertical-align: top;'>"+contentData.fileRepository[i].upload_date+"</td></tr>";
+                }//ends for loop
+                file_table+="</tbody></table>";
+                $("#fileTableDivContainer").append(file_table);
+                $(".breakwords").css('word-wrap', 'break-word');
+            })
+        }
+
+        function filter_isotope_items(){
+            $('.portfolioFilter .current').removeClass('current');
+            $(this).addClass('current');
+            var $container = $("#contentDivContainer");
+            var selector = $(this).attr('data-filter');
+            $container.isotope({
+                filter: selector,
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear',
+                    queue: false
+                }
+            });
+            return false;
+            console.log("Entered 'filter_isotope_items' Function alright.");
+        }
+
+        function start_isotope(){
+            //var $container = $('.portfolioContainer');
+            var $container = $("#contentDivContainer");
+            $container.isotope({
+                filter: '*',
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear',
+                    queue: false
+                }
+            });
+
+            $('.portfolioFilter a').click(function(){
+                $('.portfolioFilter .current').removeClass('current');
+                $(this).addClass('current');
+
+                var selector = $(this).attr('data-filter');
+                $container.isotope({
+                    filter: selector,
+                    animationOptions: {
+                        duration: 750,
+                        easing: 'linear',
+                        queue: false
+                    }
+                });
+                return false;
+            });
+        }//closes function Start_isotope
+
+        function triggerToolTipUploadPhoto(){
+            $("#tooltip-choosePhotoHere").trigger("mouseout");
+            $("#tooltip-uploadphoto").trigger("mouseover");
+        }
+
+        function submit_New_Content_Form(){
+
+            var new_content_content = $('#addNewContentModal-content').val();
+            /*var new_content_id;*/
+            var new_content_title = $("#addNewContentModal-title").val();
+            /*var new_content_image = $("#addNewContentModal-imagePath").val();*/
+            var new_content_excerpt = $("#addNewContentModal-excerpt").val();
+            /*var new_content_categories = $("#addNewContentCategorySelect option:selected").text();*/
+            var new_content_author = $("#addNewContentModal-author").val();
+            /*new_content_id = $.now();*/
+            var new_content_categories="News";
+
+            new_content_content = $('<div/>').text(new_content_content).html();
+            tOP.CreateObject("AaltoGlobalImpact.OIP", "TextContent",
+                    {
+                        Title: new_content_title,
+                        Excerpt: new_content_excerpt,
+                        "ENC.RawHtmlContent": new_content_content,
+                        Author: new_content_author
+                    }
+            );
+
+            /*$.ajax({
+                global: false,
+                type: "POST",
+                //async: false,
+                dataType: "json",
+                data: ({
+                    Title: new_content_title,
+                    Excerpt: new_content_excerpt,
+                    RawHtmlContent: new_content_content,
+                    Author: new_content_author
+                }),
+                url: 'new_content.php'
+            });*/
+            //more stuff to do after the ajax call
+            var new_Content="";
+            new_Content+="<div class='content-card "+new_content_categories+"' id='contentCardDataId-"+new_content_id+"'>";
+            new_Content+="<img src='"+new_content_image+"' alt='image' id='contentCardImage-dataID-"+new_content_id+"'/>";
+            new_Content+="<div class='content-card-title' id='contentCardTitle-dataID-"+new_content_id+"'><span style='font-size: 120%;'><strong>"+new_content_title+"</strong></span></div>";
+            new_Content+="<div class='content-card-options'><a class='editContentButton' id='editContentButton-dataID-"+new_content_id+"'>Edit&nbsp;</a><a class='viewContentButton' id='viewContentButton-dataID-"+new_content_id+"'>&nbsp;View&nbsp;</a><a id='trashContentButton-dataID-"+new_content_id+"'>&nbsp;Trash&nbsp;</a><a class='content-card-options-right' id='toggleVisibilityContentButton-dataID-"+new_content_id+"'><i class='icon-eye-open' style='font-size:110%;'></i></a></div>";
+            new_Content+="<div class='content-card-line'><hr></div>";
+            new_Content+="<div class='content-card-options'><a><i class='icon-pencil'></i>&nbsp;</a><a id='contentAddCommentButton-dataID-"+new_content_id+"'>&nbsp;Comment&nbsp;</a><a class='content-card-options-right' id='contentNumberOfComments-dataID-"+new_content_id+"'><i class='icon-commentround'></i></a></div>";
+            new_Content+="</div>";
+            var $container = $('#contentDivContainer');
+            var $newItems = $(new_Content);
+            $container.isotope( 'insert', $newItems );
+            $('#addNewContentModal').foundation('reveal', 'close');
+            setTimeout(function() {
+                $('#alert-addNewContent-successful-modal').foundation('reveal', 'open');
+                return false;
+            }, 2000);
+        }
+
+        function reveal_addNewContentModal () {
+            $('#form-addNewContentModal-imageUpload').ajaxForm();//initializes the Image Upload Form
+            //$("#tooltip-choosePhotoHere").trigger("mouseover");
+            $('#addNewContentModal').foundation('reveal', 'open');
+            getAndPopulate_Isotope_Filter_Categories ();
+            //$.when($('#addNewContentModal').foundation('reveal', 'open')).then(function(){$("#tooltip-choosePhotoHere").trigger("mouseover");}).fail(function(){console.log( "Couldn't reveal the addNewContentModal." );});
+        }
+
+        function close_NewContent_Modal_Form(){
+            $("#tooltip-uploadphoto").trigger("mouseout");
+            $("#tooltip-choosePhotoHere").trigger("mouseout");
+            $('#addNewContentModal').foundation('reveal', 'close');
+        }
+
+        function upload_addNewContentModalForm_picture() {
+            var options = {
+                type: "POST",
+                url:'uploadphoto.php',
+                success:    function(phpresponse) {
+                    $("#addNewContentModal-image").empty();
+                    var imageTag ="<img src='"+phpresponse+"' style='height: 100%; width: auto;'>";
+                    $("#addNewContentModal-image").append(imageTag);
+                    //var time_id= $.now();
+                    $("#addNewContentModal-imagePath").val(phpresponse);
+                    //$("#addNewContentModal-id").val(time_id);
+                }
+            };
+            $('#form-addNewContentModal-imageUpload').ajaxSubmit(options);
+            $("#tooltip-uploadphoto").trigger("mouseout");
+            $("#tooltip-choosePhotoHere").trigger("mouseout");
+            return false;
+        }
+
+        function upload_editedContentModalForm_picture() {
+            var options = {
+                type: "POST",
+                url:'uploadphoto.php',
+                success:    function(phpresponse) {
+                    $("#editContentModal-image").empty();
+                    var imageTag ="<img src='"+phpresponse+"' style='height: 100%; width: auto;'>";
+                    $("#editContentModal-image").append(imageTag);
+                    //var time_id= $.now();
+                    $("#editContentModal-imagePath").val(phpresponse);
+                    //$("#addNewContentModal-id").val(time_id);
+                }
+            };
+            $('#form-editContentModal-imageUpload').ajaxSubmit(options);
+            $("#tooltip-uploadphoto").trigger("mouseout");
+            $("#tooltip-choosePhotoHere").trigger("mouseout");
+            return false;
+        }
+
+        function upload_newFile() {
+                //check if the hidden idFile is already populated... if it's empty it means no file have been selected
+            //#form-addNewFileForm-id
+                if( !$("#form-addNewFileForm-URL").val() ) {
+                    var options = {
+                        type: "POST",
+                        url:'uploadfile.php',
+                        success:    function(phpresponse) {
+                            $("#addNewfile-image").empty();
+                            var imageTag ="<img src='"+phpresponse+"' style='height: 100%; width: auto;'>";
+                            $("#addNewfile-image").append(imageTag);
+                            //var time_id= $.now();
+                            $("#form-addNewFileForm-URL").val(phpresponse);
+                            //$("#addNewContentModal-id").val(time_id);
+                        }
+                    };
+                    $('#form-addNewfile-fileUpload').ajaxSubmit(options);
+                    return false;
+                }
+                //else, means that the file was already Previewd and uploaded, so we send the rest of the form (description)
+            else{
+                    var filedescription = $("#form-addNewFileForm-description").val();
+                    var status ="complete";
+                    var url= $("#form-addNewFileForm-URL").val();
+                    console.log ("Entered Upload_newFile...Else section. Image URL: "+url+".File description:"+filedescription);
+
+                    /*$.ajax({
+                        global: false,
+                        type: "POST",
+                        dataType: "json",
+                        data: ({
+                            action: "updateUploadedFileData",
+                            filedescription: filedescription,
+                            status: status,
+                            urltosearch:url
+                        }),
+                        url: 'multihandler.php',
+                        success: function (data) {
+                            console.log("Success section of the Ajax call to multihandler.php. Response :"+data);
+                            },
+                        fail: function(error) {
+                            console.log ("Call to multihandler.php to update the description failed. Error: "+error);
+                        }
+                    });*/
+                    var multihandlerResponse = $.ajax({
+                        url: "multihandler.php",
+                        type: "POST",
+                        data: ({action: "updateUploadedFileData",
+                                filedescription: filedescription,
+                                status: status,
+                                urltosearch:url}),
+                        async: false
+                    }).responseText;
+                    console.log("Response from ajax call to multihandler.php: "+multihandlerResponse);
+                    $("#addNewfile-image").empty();
+                    /*$("#form-addNewFileForm-description").empty();*/
+                    $("#form-addNewFileForm-description").val("");
+                    $("#addNewfile-fileInput").val("");
+                    $("#form-addNewFileForm-URL").val("");
+                    return false;
+                }
+        }
+
+        function getAndPopulate_Isotope_Filter_Categories () {
+            //var goMessage="One headlight";
+            //$("#testPanelGo").append(goMessage);
+            console.log("Entered 'getAndPopulate_Isotope_Filter_Categories' Function.");
+            var multihandlerResponse = $.ajax({
+                url: "multihandler.php",
+                type: "POST",
+                data: ({action: 'getMainCategories'}),
+                async: false
+            }).responseText;
+            /*$("#portfolioFilterDivContainer").empty();
+            $("#portfolioFilterDivContainer").append(multihandlerResponse);
+            $("#testPanelGo").empty();
+            $("#testPanelGo").text("Done!."+multihandlerResponse);*/
+            $("#addNewContentCategorySelect").empty();
+            $("#addNewContentCategorySelect").append(multihandlerResponse);
+            $("#editContentModal-categories").empty();
+            $("#editContentModal-categories").append(multihandlerResponse);
+            return false;
+        }
+
+        function submit_New_Group () {
+            var new_group_name = $("#form_new_group_name").val();
+            var new_group_url = $("#form_new_group_url").val();
+            $.ajax({
+                global: false,
+                type: "POST",
+                //async: false,
+                dataType: "json",
+                data: ({
+                    name: new_group_name,
+                    site: new_group_url
+                }),
+                url: 'read-write.php'
+            });
+            //populate_groups_table();
+            var new_site="<li><a href='" + new_group_url + "' target='_blank' style='text-transform:capitalize !important;'>" +
+                    new_group_name + "</a></li>";
+
+            $('#groups-table tr:last').after('<tr><td>'+new_group_name+'</td><td>'+new_group_url+'</td></tr>');
+            $("#site-dropdown-list").append(new_site);
+            $('#alert-groupadded-successful').foundation('reveal', 'open');
+        };
+
+
+    });
+</script>
+
+</body>
+</html>

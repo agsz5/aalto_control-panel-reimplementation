@@ -1,0 +1,48 @@
+﻿<Image xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <Caption i:nil="true" />
+  <Categories>
+    <CollectionContent />
+    <GeneratedByProcessID i:nil="true" />
+    <ID>0b8b2ba1-4690-4c93-ba62-ba5b03f48e5c</ID>
+    <IsCollectionFiltered>false</IsCollectionFiltered>
+    <MasterETag i:nil="true" />
+    <Name>CategoryCollection</Name>
+    <OrderFilterIDList xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>AaltoGlobalImpact.OIP/CategoryCollection/0b8b2ba1-4690-4c93-ba62-ba5b03f48e5c</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </Categories>
+  <Description i:nil="true" />
+  <GeneratedByProcessID i:nil="true" />
+  <ID>3c48b05b-ee1e-4de5-8aef-1e94fa560bba</ID>
+  <ImageData i:nil="true" />
+  <Locations>
+    <CollectionContent />
+    <GeneratedByProcessID i:nil="true" />
+    <ID>c853444a-1060-4a60-8efd-b2735ac0c485</ID>
+    <IsCollectionFiltered>false</IsCollectionFiltered>
+    <MasterETag i:nil="true" />
+    <Name>AddressAndLocationCollection</Name>
+    <OrderFilterIDList xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>AaltoGlobalImpact.OIP/AddressAndLocationCollection/c853444a-1060-4a60-8efd-b2735ac0c485</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </Locations>
+  <MasterETag i:nil="true" />
+  <Name>Image</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <ReferenceToInformation>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>7c5e0f71-d368-4370-9c01-62a7a1c2c5c3</ID>
+    <MasterETag i:nil="true" />
+    <Name>ReferenceToInformation</Name>
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>AaltoGlobalImpact.OIP/ReferenceToInformation/7c5e0f71-d368-4370-9c01-62a7a1c2c5c3</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+    <Title i:nil="true" />
+    <URL>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Image/3c48b05b-ee1e-4de5-8aef-1e94fa560bba</URL>
+  </ReferenceToInformation>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Image/3c48b05b-ee1e-4de5-8aef-1e94fa560bba</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <Title i:nil="true" />
+</Image>

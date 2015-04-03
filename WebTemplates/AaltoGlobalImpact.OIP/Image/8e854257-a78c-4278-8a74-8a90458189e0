@@ -1,0 +1,38 @@
+﻿<Image xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <Caption i:nil="true" />
+  <Categories i:nil="true" />
+  <Description i:nil="true" />
+  <GeneratedByProcessID i:nil="true" />
+  <ID>8e854257-a78c-4278-8a74-8a90458189e0</ID>
+  <ImageData>
+    <AdditionalFormatFileExt>.jpg</AdditionalFormatFileExt>
+    <ContentLength>1085833</ContentLength>
+    <FileExt>.jpg</FileExt>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>9e7ac9bf-78de-4d39-87a7-293e7ccd6e61</ID>
+    <MasterETag i:nil="true" />
+    <Name>MediaContent</Name>
+    <OriginalFileName i:nil="true" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/9e7ac9bf-78de-4d39-87a7-293e7ccd6e61.jpg</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </ImageData>
+  <Locations i:nil="true" />
+  <MasterETag i:nil="true" />
+  <Name>Image</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <ReferenceToInformation>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>9fcdad8f-3cae-419c-b6c8-f94c65216eb8</ID>
+    <MasterETag>"0x8D17F6555EC8E67"</MasterETag>
+    <Name>ReferenceToInformation</Name>
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/ReferenceToInformation/9fcdad8f-3cae-419c-b6c8-f94c65216eb8</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+    <Title>Business_page.jpg</Title>
+    <URL>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Image/8e854257-a78c-4278-8a74-8a90458189e0</URL>
+  </ReferenceToInformation>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Image/8e854257-a78c-4278-8a74-8a90458189e0</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <Title>Business_page.jpg</Title>
+</Image>

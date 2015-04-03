@@ -1,0 +1,64 @@
+﻿<TextContent xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <Author>Empty</Author>
+  <Body i:nil="true" />
+  <Categories>
+    <CollectionContent>
+      <Category>
+        <CategoryName>catGossip</CategoryName>
+        <Excerpt>Unconfirmed rumors and exciting possibilities</Excerpt>
+        <GeneratedByProcessID i:nil="true" />
+        <ID>41488504-d4d1-47e9-bc02-f9cc5c42b30c</ID>
+        <ImageData i:nil="true" />
+        <MasterETag i:nil="true" />
+        <Name>Category</Name>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <ParentCategory i:nil="true" />
+        <ParentCategoryID i:nil="true" />
+        <ReferenceToInformation i:nil="true" />
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/41488504-d4d1-47e9-bc02-f9cc5c42b30c</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        <Title>Gossip</Title>
+      </Category>
+    </CollectionContent>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>45322b48-82e2-414f-82cf-91311ead399e</ID>
+    <IsCollectionFiltered>false</IsCollectionFiltered>
+    <MasterETag i:nil="true" />
+    <Name>CategoryCollection</Name>
+    <OrderFilterIDList xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>AaltoGlobalImpact.OIP/CategoryCollection/45322b48-82e2-414f-82cf-91311ead399e</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </Categories>
+  <Excerpt />
+  <GeneratedByProcessID i:nil="true" />
+  <ID>bdf73cc1-9e1f-43bb-8103-54ee066d395a</ID>
+  <IFrameSources i:nil="true" />
+  <ImageData>
+    <AdditionalFormatFileExt>.jpg</AdditionalFormatFileExt>
+    <ContentLength>15834</ContentLength>
+    <FileExt>.jpg</FileExt>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>fe90dab8-a8fa-4358-95f6-3d8af3c29b61</ID>
+    <MasterETag i:nil="true" />
+    <Name>MediaContent</Name>
+    <OriginalFileName i:nil="true" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/fe90dab8-a8fa-4358-95f6-3d8af3c29b61.jpg</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </ImageData>
+  <Locations i:nil="true" />
+  <MasterETag i:nil="true" />
+  <Name>TextContent</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <Published>2014-05-19T07:02:50.852+00:00</Published>
+  <RawHtmlContent>&lt;p&gt;Following Apple's success, many companies are finally starting to recognize the crucial role design plays in building a desirable (and profitable) product. Yet very few companies are actually founded and led by designers. Here to change that is&amp;nbsp;&lt;a href="https://www.30weeks.com/"&gt;30 Weeks&lt;/a&gt;, a new program by a powerhouse team of New York design schools--Parsons, Pratt, School of Visual Arts, and The Cooper Union--in collaboration with the education company Hyper Island and Google.&lt;br&gt;&lt;/p&gt;&lt;p&gt;
+	 &lt;a href="http://youtu.be/X2wWTadsBDA"&gt;http://youtu.be/X2wWTadsBDA&lt;/a&gt;&lt;img src="http://e.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2014/06/3031619-poster-p-shutterstock162455429.jpg" style=""&gt;
+&lt;/p&gt;
+</RawHtmlContent>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/TextContent/bdf73cc1-9e1f-43bb-8103-54ee066d395a</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <SortOrderNumber>0</SortOrderNumber>
+  <SubTitle i:nil="true" />
+  <Title>Trying out safari</Title>
+</TextContent>

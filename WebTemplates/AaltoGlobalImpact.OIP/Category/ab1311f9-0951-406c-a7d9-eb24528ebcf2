@@ -1,0 +1,16 @@
+﻿<Category xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <CategoryName>catNews</CategoryName>
+  <Excerpt>News description...</Excerpt>
+  <GeneratedByProcessID i:nil="true" />
+  <ID>ab1311f9-0951-406c-a7d9-eb24528ebcf2</ID>
+  <ImageData i:nil="true" />
+  <MasterETag i:nil="true" />
+  <Name>Category</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <ParentCategory i:nil="true" />
+  <ParentCategoryID i:nil="true" />
+  <ReferenceToInformation i:nil="true" />
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/ab1311f9-0951-406c-a7d9-eb24528ebcf2</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <Title>News</Title>
+</Category>

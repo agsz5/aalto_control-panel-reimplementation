@@ -1,0 +1,26 @@
+﻿<BinaryFile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <Categories i:nil="true" />
+  <Data>
+    <AdditionalFormatFileExt i:nil="true" />
+    <ContentLength>272013</ContentLength>
+    <FileExt>.pdf</FileExt>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>01e65bb3-3d54-4802-bcdb-77938e6ae03a</ID>
+    <MasterETag i:nil="true" />
+    <Name>MediaContent</Name>
+    <OriginalFileName>Kehitystutkimuksen maisteripalkinto 2014.pdf</OriginalFileName>
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/01e65bb3-3d54-4802-bcdb-77938e6ae03a.pdf</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </Data>
+  <Description i:nil="true" />
+  <GeneratedByProcessID i:nil="true" />
+  <ID>e0712fa4-2625-4c57-bfa2-b54a02eee97a</ID>
+  <MasterETag i:nil="true" />
+  <Name>BinaryFile</Name>
+  <OriginalFileName>Kehitystutkimuksen maisteripalkinto 2014.pdf</OriginalFileName>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/BinaryFile/e0712fa4-2625-4c57-bfa2-b54a02eee97a</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <Title i:nil="true" />
+</BinaryFile>

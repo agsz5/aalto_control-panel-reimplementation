@@ -1,0 +1,69 @@
+﻿<TextContent xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <Author>Petri Businessman</Author>
+  <Body i:nil="true" />
+  <Categories>
+    <CollectionContent>
+      <Category>
+        <CategoryName>catBusinessSpecial</CategoryName>
+        <Excerpt i:nil="true" />
+        <GeneratedByProcessID i:nil="true" />
+        <ID>a15b4bb7-6e42-4b44-8cbc-e0ddac598efc</ID>
+        <ImageData i:nil="true" />
+        <MasterETag i:nil="true" />
+        <Name>Category</Name>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <ParentCategory i:nil="true" />
+        <ParentCategoryID i:nil="true" />
+        <ReferenceToInformation i:nil="true" />
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/a15b4bb7-6e42-4b44-8cbc-e0ddac598efc</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        <Title>Business Special</Title>
+      </Category>
+    </CollectionContent>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>603dc5c8-801e-4803-af4f-5e0702804679</ID>
+    <IsCollectionFiltered>false</IsCollectionFiltered>
+    <MasterETag i:nil="true" />
+    <Name>CategoryCollection</Name>
+    <OrderFilterIDList xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>AaltoGlobalImpact.OIP/CategoryCollection/603dc5c8-801e-4803-af4f-5e0702804679</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </Categories>
+  <Excerpt>Industry is booming</Excerpt>
+  <GeneratedByProcessID i:nil="true" />
+  <ID>9504fc4e-a80a-43a8-8f4a-735bc3ca55fd</ID>
+  <IFrameSources i:nil="true" />
+  <ImageData>
+    <AdditionalFormatFileExt>.png</AdditionalFormatFileExt>
+    <ContentLength>1738</ContentLength>
+    <FileExt>.png</FileExt>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>b585f5e6-3829-40ff-ae0f-c7be097e919d</ID>
+    <MasterETag i:nil="true" />
+    <Name>MediaContent</Name>
+    <OriginalFileName i:nil="true" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/b585f5e6-3829-40ff-ae0f-c7be097e919d.png</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </ImageData>
+  <Locations i:nil="true" />
+  <MasterETag i:nil="true" />
+  <Name>TextContent</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <Published>2014-08-12T11:30:11.482+00:00</Published>
+  <RawHtmlContent>&lt;p&gt;
+	Cosby sweater Austin pour-over cray gluten-free, before they sold out pug Etsy direct trade Intelligentsia Schlitz you probably haven't heard of them aesthetic lo-fi. Brooklyn chia Blue Bottle asymmetrical Schlitz.
+&lt;/p&gt;
+&lt;p&gt;
+	Cosby sweater Austin pour-over cray gluten-free, before they sold out pug Etsy direct trade Intelligentsia Schlitz you probably haven't heard of them aesthetic lo-fi. Brooklyn chia Blue Bottle asymmetrical Schlitz.
+&lt;/p&gt;
+&lt;p&gt;
+	Cosby sweater Austin pour-over cray gluten-free, before they sold out pug Etsy direct trade Intelligentsia Schlitz you probably haven't heard of them aesthetic lo-fi. Brooklyn chia Blue Bottle asymmetrical Schlitz.
+&lt;/p&gt;</RawHtmlContent>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/TextContent/9504fc4e-a80a-43a8-8f4a-735bc3ca55fd</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <SortOrderNumber>0</SortOrderNumber>
+  <SubTitle i:nil="true" />
+  <Title>Business Article I</Title>
+</TextContent>

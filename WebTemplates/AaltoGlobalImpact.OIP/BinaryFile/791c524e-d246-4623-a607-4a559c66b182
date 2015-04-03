@@ -1,0 +1,54 @@
+﻿<BinaryFile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <Categories>
+    <CollectionContent>
+      <Category>
+        <CategoryName>catNews</CategoryName>
+        <Excerpt i:nil="true" />
+        <GeneratedByProcessID i:nil="true" />
+        <ID>ab1311f9-0951-406c-a7d9-eb24528ebcf2</ID>
+        <ImageData i:nil="true" />
+        <MasterETag i:nil="true" />
+        <Name>Category</Name>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <ParentCategory i:nil="true" />
+        <ParentCategoryID i:nil="true" />
+        <ReferenceToInformation i:nil="true" />
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/ab1311f9-0951-406c-a7d9-eb24528ebcf2</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        <Title>News</Title>
+      </Category>
+    </CollectionContent>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>0b8673df-7b05-4550-b794-2b2a667e3ebf</ID>
+    <IsCollectionFiltered>false</IsCollectionFiltered>
+    <MasterETag i:nil="true" />
+    <Name>CategoryCollection</Name>
+    <OrderFilterIDList xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/CategoryCollection/0b8673df-7b05-4550-b794-2b2a667e3ebf</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </Categories>
+  <Data>
+    <AdditionalFormatFileExt i:nil="true" />
+    <ContentLength>155619</ContentLength>
+    <FileExt>.xlsx</FileExt>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>04e7393a-8ed0-4f65-9b49-6bd851e0e423</ID>
+    <MasterETag i:nil="true" />
+    <Name>MediaContent</Name>
+    <OriginalFileName i:nil="true" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/04e7393a-8ed0-4f65-9b49-6bd851e0e423.xlsx</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </Data>
+  <Description />
+  <GeneratedByProcessID i:nil="true" />
+  <ID>791c524e-d246-4623-a607-4a559c66b182</ID>
+  <MasterETag i:nil="true" />
+  <Name>BinaryFile</Name>
+  <OriginalFileName i:nil="true" />
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/BinaryFile/791c524e-d246-4623-a607-4a559c66b182</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <Title />
+</BinaryFile>

@@ -1,0 +1,16 @@
+﻿<Category xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <CategoryName>catTruestories</CategoryName>
+  <Excerpt i:nil="true" />
+  <GeneratedByProcessID i:nil="true" />
+  <ID>7e1dbe6d-d594-4873-9d37-eb8c152cc92a</ID>
+  <ImageData i:nil="true" />
+  <MasterETag i:nil="true" />
+  <Name>Category</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <ParentCategory i:nil="true" />
+  <ParentCategoryID i:nil="true" />
+  <ReferenceToInformation i:nil="true" />
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/7e1dbe6d-d594-4873-9d37-eb8c152cc92a</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <Title>True stories</Title>
+</Category>

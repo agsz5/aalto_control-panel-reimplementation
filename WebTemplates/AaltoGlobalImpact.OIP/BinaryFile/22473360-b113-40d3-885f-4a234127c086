@@ -1,0 +1,26 @@
+﻿<BinaryFile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <Categories i:nil="true" />
+  <Data>
+    <AdditionalFormatFileExt i:nil="true" />
+    <ContentLength>44264</ContentLength>
+    <FileExt>.xlsx</FileExt>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>dd49a9df-6e36-4adb-958e-79fe101185b2</ID>
+    <MasterETag i:nil="true" />
+    <Name>MediaContent</Name>
+    <OriginalFileName>Cinemaissi 2013 finances.xlsx</OriginalFileName>
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/dd49a9df-6e36-4adb-958e-79fe101185b2.xlsx</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </Data>
+  <Description i:nil="true" />
+  <GeneratedByProcessID i:nil="true" />
+  <ID>22473360-b113-40d3-885f-4a234127c086</ID>
+  <MasterETag i:nil="true" />
+  <Name>BinaryFile</Name>
+  <OriginalFileName>Cinemaissi 2013 finances.xlsx</OriginalFileName>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/BinaryFile/22473360-b113-40d3-885f-4a234127c086</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <Title i:nil="true" />
+</BinaryFile>

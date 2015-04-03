@@ -1,0 +1,33 @@
+﻿<TextContent xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <Author />
+  <Body i:nil="true" />
+  <Categories i:nil="true" />
+  <Excerpt />
+  <GeneratedByProcessID i:nil="true" />
+  <ID>0b80f00e-a1f5-4eff-9eaf-b2dd3d50a790</ID>
+  <IFrameSources i:nil="true" />
+  <ImageData>
+    <AdditionalFormatFileExt>.png</AdditionalFormatFileExt>
+    <ContentLength>480141</ContentLength>
+    <FileExt>.png</FileExt>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>a5da98cc-5087-474e-a141-61db04e910c9</ID>
+    <MasterETag i:nil="true" />
+    <Name>MediaContent</Name>
+    <OriginalFileName i:nil="true" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/a5da98cc-5087-474e-a141-61db04e910c9.png</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </ImageData>
+  <Locations i:nil="true" />
+  <MasterETag i:nil="true" />
+  <Name>TextContent</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <Published>2014-07-29T08:17:17.841+00:00</Published>
+  <RawHtmlContent>&lt;p&gt;Bla bla&lt;/p&gt;</RawHtmlContent>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/TextContent/0b80f00e-a1f5-4eff-9eaf-b2dd3d50a790</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <SortOrderNumber>0</SortOrderNumber>
+  <SubTitle i:nil="true" />
+  <Title>Here is my title</Title>
+</TextContent>

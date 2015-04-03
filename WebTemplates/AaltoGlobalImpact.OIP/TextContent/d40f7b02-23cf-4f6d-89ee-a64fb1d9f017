@@ -1,0 +1,63 @@
+﻿<TextContent xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <Author>Empty</Author>
+  <Body i:nil="true" />
+  <Categories>
+    <CollectionContent>
+      <Category>
+        <CategoryName>catImportant</CategoryName>
+        <Excerpt i:nil="true" />
+        <GeneratedByProcessID i:nil="true" />
+        <ID>ca2b303c-1cc3-4af1-9c30-90265b167bc0</ID>
+        <ImageData i:nil="true" />
+        <MasterETag i:nil="true" />
+        <Name>Category</Name>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <ParentCategory i:nil="true" />
+        <ParentCategoryID i:nil="true" />
+        <ReferenceToInformation i:nil="true" />
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/ca2b303c-1cc3-4af1-9c30-90265b167bc0</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        <Title>Important</Title>
+      </Category>
+    </CollectionContent>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>458dd606-1d81-4672-8a5a-ce537f421a54</ID>
+    <IsCollectionFiltered>false</IsCollectionFiltered>
+    <MasterETag i:nil="true" />
+    <Name>CategoryCollection</Name>
+    <OrderFilterIDList xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>AaltoGlobalImpact.OIP/CategoryCollection/458dd606-1d81-4672-8a5a-ce537f421a54</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </Categories>
+  <Excerpt />
+  <GeneratedByProcessID i:nil="true" />
+  <ID>d40f7b02-23cf-4f6d-89ee-a64fb1d9f017</ID>
+  <IFrameSources i:nil="true" />
+  <ImageData>
+    <AdditionalFormatFileExt>.png</AdditionalFormatFileExt>
+    <ContentLength>86941</ContentLength>
+    <FileExt>.png</FileExt>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>c36cde6d-56d7-4994-acae-0b814f29ff34</ID>
+    <MasterETag i:nil="true" />
+    <Name>MediaContent</Name>
+    <OriginalFileName i:nil="true" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/c36cde6d-56d7-4994-acae-0b814f29ff34.png</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </ImageData>
+  <Locations i:nil="true" />
+  <MasterETag i:nil="true" />
+  <Name>TextContent</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <Published>2014-05-16T13:23:28.45+00:00</Published>
+  <RawHtmlContent>&lt;p&gt;
+	 &lt;a href="http://vimeo.com/93292947"&gt;Co-Creating New Partnerships for Financing Sustainable Development&lt;/a&gt; from &lt;a href="http://vimeo.com/user11643087"&gt;Aalto Global Impact&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.
+&lt;/p&gt;&lt;br /&gt;</RawHtmlContent>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/TextContent/d40f7b02-23cf-4f6d-89ee-a64fb1d9f017</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <SortOrderNumber>0</SortOrderNumber>
+  <SubTitle i:nil="true" />
+  <Title>How does this look like?</Title>
+</TextContent>

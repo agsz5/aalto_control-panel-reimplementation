@@ -1,0 +1,16 @@
+﻿<Category xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <CategoryName>catGossip</CategoryName>
+  <Excerpt>Unconfirmed rumors and exciting possibilities</Excerpt>
+  <GeneratedByProcessID i:nil="true" />
+  <ID>41488504-d4d1-47e9-bc02-f9cc5c42b30c</ID>
+  <ImageData i:nil="true" />
+  <MasterETag i:nil="true" />
+  <Name>Category</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <ParentCategory i:nil="true" />
+  <ParentCategoryID i:nil="true" />
+  <ReferenceToInformation i:nil="true" />
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/41488504-d4d1-47e9-bc02-f9cc5c42b30c</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <Title>Gossip</Title>
+</Category>

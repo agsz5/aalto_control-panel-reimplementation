@@ -1,0 +1,11 @@
+﻿<ReferenceToInformation xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <GeneratedByProcessID i:nil="true" />
+  <ID>fe510c4b-d863-4f72-85f9-a3f03cc24380</ID>
+  <MasterETag i:nil="true" />
+  <Name>ReferenceToInformation</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/ReferenceToInformation/fe510c4b-d863-4f72-85f9-a3f03cc24380</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <Title>herobrine ihmis susi.png</Title>
+  <URL>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Image/97487dcf-d59b-40e5-9ec8-d92733f4f0a5</URL>
+</ReferenceToInformation>

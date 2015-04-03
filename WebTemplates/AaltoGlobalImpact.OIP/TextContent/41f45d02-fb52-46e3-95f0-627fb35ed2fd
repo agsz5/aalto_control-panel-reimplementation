@@ -1,0 +1,89 @@
+﻿<TextContent xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <Author>Hugo Jimenez</Author>
+  <Body i:nil="true" />
+  <Categories>
+    <CollectionContent>
+      <Category>
+        <CategoryName>catImportant</CategoryName>
+        <Excerpt i:nil="true" />
+        <GeneratedByProcessID i:nil="true" />
+        <ID>ca2b303c-1cc3-4af1-9c30-90265b167bc0</ID>
+        <ImageData i:nil="true" />
+        <MasterETag i:nil="true" />
+        <Name>Category</Name>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <ParentCategory i:nil="true" />
+        <ParentCategoryID i:nil="true" />
+        <ReferenceToInformation i:nil="true" />
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/ca2b303c-1cc3-4af1-9c30-90265b167bc0</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        <Title>Important</Title>
+      </Category>
+    </CollectionContent>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>6fe84367-fd6e-4d1b-81e4-7f0388e6a9cd</ID>
+    <IsCollectionFiltered>false</IsCollectionFiltered>
+    <MasterETag i:nil="true" />
+    <Name>CategoryCollection</Name>
+    <OrderFilterIDList xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>AaltoGlobalImpact.OIP/CategoryCollection/6fe84367-fd6e-4d1b-81e4-7f0388e6a9cd</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </Categories>
+  <Excerpt>Like art? Show us your personal projects, we'll be glad to showcase them</Excerpt>
+  <GeneratedByProcessID i:nil="true" />
+  <ID>41f45d02-fb52-46e3-95f0-627fb35ed2fd</ID>
+  <IFrameSources i:nil="true" />
+  <ImageData>
+    <AdditionalFormatFileExt>.jpg</AdditionalFormatFileExt>
+    <ContentLength>152800</ContentLength>
+    <FileExt>.jpg</FileExt>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>b44cdf39-7689-43b5-ac92-eef0daa3bb92</ID>
+    <MasterETag i:nil="true" />
+    <Name>MediaContent</Name>
+    <OriginalFileName i:nil="true" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/b44cdf39-7689-43b5-ac92-eef0daa3bb92.jpg</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </ImageData>
+  <Locations i:nil="true" />
+  <MasterETag i:nil="true" />
+  <Name>TextContent</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <Published>2014-05-19T08:45:53.527+00:00</Published>
+  <RawHtmlContent>&lt;p&gt;&lt;p&gt;
+&lt;/p&gt;&lt;p&gt;
+Integer molestie, arcu sed feugiat ultrices, leo elit euismod tortor, 
+nec tempus neque justo eu dui. Curabitur tempus neque sed tortor 
+malesuada sodales. Nulla felis diam, ornare nec magna feugiat, convallis
+ pulvinar leo. Phasellus dictum adipiscing nulla, vel pellentesque diam 
+semper at. Fusce a faucibus tortor. Donec sed lectus risus. Sed varius, 
+est sit amet blandit tincidunt, magna diam viverra turpis, in viverra 
+dolor massa eu justo. Pellentesque tellus risus, gravida vitae placerat 
+rhoncus, lobortis eget neque.&lt;/p&gt;&lt;p&gt;&lt;a href="www.loremipsum.com"&gt;asasdasdasdasdasdasdasdasdasdasdasdasdhasdahsdahsdashdashdashdasdhasdhashdasdhasdhasdhasdhasdhasdhashdashdashdashdashdashdahsdahsdhasdhsadhasdhadhadhadhasdhadhadhadahd&lt;/a&gt;&lt;br&gt; &lt;/p&gt;&lt;p&gt;
+Pellentesque auctor imperdiet sollicitudin. Aenean congue nisi placerat 
+feugiat iaculis. Vestibulum at pharetra neque, sit amet gravida justo. 
+Nam neque ligula, gravida dignissim neque sit amet, pretium semper 
+lorem. Donec enim massa, placerat id tincidunt nec, mattis id ipsum. Sed
+ vel urna eget dolor pellentesque imperdiet. Donec interdum aliquam 
+posuere. Maecenas tincidunt tempus nisl vitae aliquam. Integer sed ipsum
+ convallis, mollis lorem nec, porta diam. Morbi et lacinia dui, et 
+egestas sem. Sed luctus est neque, at tempus nisl luctus ac.
+&lt;/p&gt;
+&lt;p&gt;
+Mauris tristique elit magna, a ornare lectus congue volutpat. 
+Suspendisse interdum quam ac tempus adipiscing. Fusce fringilla 
+sollicitudin massa, et ultrices mi posuere ut. Suspendisse faucibus, 
+justo a tincidunt mattis, magna sapien commodo odio, sit amet suscipit 
+purus ipsum eget leo. Quisque cursus lacus urna, quis feugiat tellus 
+tincidunt non. Vestibulum interdum ligula a tellus dignissim, suscipit 
+euismod orci venenatis. Phasellus hendrerit nec nisl a commodo.
+&lt;/p&gt;
+&lt;br&gt;&lt;/p&gt;</RawHtmlContent>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/TextContent/41f45d02-fb52-46e3-95f0-627fb35ed2fd</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <SortOrderNumber>0</SortOrderNumber>
+  <SubTitle i:nil="true" />
+  <Title>Art for everyone</Title>
+</TextContent>

@@ -1,0 +1,38 @@
+﻿<Image xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <Caption>Another caption of image</Caption>
+  <Categories i:nil="true" />
+  <Description>Another description of image</Description>
+  <GeneratedByProcessID i:nil="true" />
+  <ID>eabd7364-3692-4938-946d-8cd1d8f249ee</ID>
+  <ImageData>
+    <AdditionalFormatFileExt>.jpg</AdditionalFormatFileExt>
+    <ContentLength>34967</ContentLength>
+    <FileExt>.jpg</FileExt>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>8f98d215-b805-44ec-9d1f-cf3e05627425</ID>
+    <MasterETag i:nil="true" />
+    <Name>MediaContent</Name>
+    <OriginalFileName>privacy-safe-locked.jpg</OriginalFileName>
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/8f98d215-b805-44ec-9d1f-cf3e05627425.jpg</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </ImageData>
+  <Locations i:nil="true" />
+  <MasterETag i:nil="true" />
+  <Name>Image</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <ReferenceToInformation>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>30d66180-f876-4172-a23d-e77be2c3ca2f</ID>
+    <MasterETag>"0x8D141F6F833A017"</MasterETag>
+    <Name>ReferenceToInformation</Name>
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/ReferenceToInformation/30d66180-f876-4172-a23d-e77be2c3ca2f</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+    <Title>privacy-safe-locked.jpg</Title>
+    <URL>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Image/eabd7364-3692-4938-946d-8cd1d8f249ee</URL>
+  </ReferenceToInformation>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Image/eabd7364-3692-4938-946d-8cd1d8f249ee</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <Title>privacy-safe-locked.jpg</Title>
+</Image>

@@ -1,0 +1,94 @@
+{#GroupContainerSource.GroupContainer}
+    <form id="form-id-1" method="post" class="form-horizontal" enctype="multipart/form-data">
+        {#GroupContainerSource}
+            <input name="ContentSourceInfo" value="{GroupContainer.RelativeLocation}:{MasterETag}" type="hidden" />
+        {/GroupContainerSource}
+        {#GroupProfile}
+            <fieldset id="profile">
+                <!-- group profile image and group icon image -->
+                <div class="span12">
+                    <div style="float:left">
+                        <div class="control-group">
+                            <label class="control-label">Group Profile Image</label>
+                            <div class="controls">
+                                {#ProfileImage}
+                                {?ImageData.ID}
+                                    {>"fileupload.dust" initial_class_mode="fileupload-exists" container_id="{ID}" field_name="ImageData" content_id="{ImageData.ID}"
+                                        imagesuffix="256x256_crop{ImageData.FileExt}" /}
+                                {:else}
+                                    {>"fileupload.dust" initial_class_mode="fileupload-new" container_id="{ID}" field_name="ImageData" /}
+                                {/ImageData.ID}
+                                {/ProfileImage}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix" style="float:left">
+                        <div class="control-group">
+                            <label class="control-label">Group Icon Image</label>
+                            <div class="controls">
+                                {#IconImage}
+                                    {?ImageData.ID}
+                                        {>"fileupload.dust" initial_class_mode="fileupload-exists" container_id="{ID}" field_name="ImageData" content_id="{ImageData.ID}"
+                                        imagesuffix="64x64_crop{ImageData.FileExt}" /}
+                                    {:else}
+                                        {>"fileupload.dust" initial_class_mode="fileupload-new" container_id="{ID}" field_name="ImageData" /}
+                                    {/ImageData.ID}
+                                {/IconImage}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end group profile image and group icon image -->
+
+                {>"textinput_singleline.dust" field_id="{ID}_GroupName" field_name="{ID}_GroupName" field_value="{GroupName}" field_label="Group name" /}
+                {>"textinput_multiline.dust" field_id="{ID}_Description" field_name="{ID}_Description" field_value="{Description}" field_label="Description" rows="6" /}
+                {>"textinput_multiline.dust" field_id="{ID}_OrganizationsAndGroupsLinkedToUs" field_name="{ID}_OrganizationsAndGroupsLinkedToUs"
+                    field_value="{OrganizationsAndGroupsLinkedToUs}" field_label="Organisations and groups linked to us" rows="6" /}
+                {>"textinput_singleline.dust" field_id="{ID}_WwwSiteToPublishTo" field_label="Www site name to publish content" field_name="{ID}_WwwSiteToPublishTo"
+                    field_value="{WwwSiteToPublishTo}" /}
+                {?CustomUICollection.CollectionContent}
+                <div class="control-group">
+                    <label class="control-label" for="CustomUIList">Custom UIs</label>
+                        <div class="controls" id="CustomUIList">
+                {#CustomUICollection.CollectionContent}
+                    <div>
+                        <span><a href="../../customui_{Content}/">{Content}</a></span>
+                        <span>
+                            {>"executeoperation_button_begin.dust" form_name="IdentityDeleteCustomUI" /}
+                            data-customuiname="{Content}"
+                            {>"executeoperation_button_end.dust" icon_class_name="icon-remove-sign" /}
+                        </span>
+                        <span>
+                            {>"executeoperation_button_begin.dust" form_name="IdentityCreateOrUpdateCustomUI" /}
+                                data-customuiname="{Content}"
+                            {>"executeoperation_button_end.dust" icon_class_name="icon-upload-alt" /}
+                        </span>
+                    </div>
+                {/CustomUICollection.CollectionContent}
+                        </div>
+                </div>
+                {/CustomUICollection.CollectionContent}
+                {>"executeoperation_button.dust" form_name="IdentityCreateOrUpdateCustomUI" button_label="Add Custom UI" icon_class_name="icon-plus-sign" /}
+                <footer>
+                    <div class="control-group controls pull-right">
+                        <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color: transparent">
+                            <button value="true" name="btnCancel"  class="btn">Cancel</button>
+                            <button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="Save">Save changes</button>
+                        </div>
+                    </div>
+                </footer>
+            </fieldset>
+        {/GroupProfile}
+    </form>
+{/GroupContainerSource.GroupContainer}
+
+{>"modal_executeoperation_begin.dust" form_name="IdentityDeleteCustomUI"
+    map_data_values="CustomUIName" header_title="Delete Custom UI" operation_name="DeleteCustomUI" /}
+{>"hiddeninput.dust" field_name="CustomUIName" /}
+{>"modal_executeoperation_end.dust" accept_button_label="Delete!" /}
+
+{>"modal_executeoperation_begin.dust" form_name="IdentityCreateOrUpdateCustomUI" operation_name="CreateOrUpdateCustomUI"
+    map_data_values="CustomUIName"/}
+{>"textinput_singleline.dust" field_id="IdentityCreateCustomUI_CustomUIName" field_name="CustomUIName" field_label="Custom UI name" /}
+<input type="file" name="CustomUIContents" />
+{>"modal_executeoperation_end.dust" accept_button_label="Upload Custom UI!" /}

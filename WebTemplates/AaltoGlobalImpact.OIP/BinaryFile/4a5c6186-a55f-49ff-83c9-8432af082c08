@@ -1,0 +1,26 @@
+﻿<BinaryFile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <Categories i:nil="true" />
+  <Data>
+    <AdditionalFormatFileExt i:nil="true" />
+    <ContentLength>429909</ContentLength>
+    <FileExt>.pdf</FileExt>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>5ed62010-87e0-497f-8e57-f100fe85b87f</ID>
+    <MasterETag i:nil="true" />
+    <Name>MediaContent</Name>
+    <OriginalFileName>Master's Award in Development Studies 2014.pdf</OriginalFileName>
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/5ed62010-87e0-497f-8e57-f100fe85b87f.pdf</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </Data>
+  <Description i:nil="true" />
+  <GeneratedByProcessID i:nil="true" />
+  <ID>4a5c6186-a55f-49ff-83c9-8432af082c08</ID>
+  <MasterETag i:nil="true" />
+  <Name>BinaryFile</Name>
+  <OriginalFileName>Master's Award in Development Studies 2014.pdf</OriginalFileName>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/BinaryFile/4a5c6186-a55f-49ff-83c9-8432af082c08</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <Title i:nil="true" />
+</BinaryFile>

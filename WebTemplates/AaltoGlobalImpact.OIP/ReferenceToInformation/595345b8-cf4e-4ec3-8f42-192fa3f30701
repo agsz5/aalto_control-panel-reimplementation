@@ -1,0 +1,11 @@
+﻿<ReferenceToInformation xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <GeneratedByProcessID i:nil="true" />
+  <ID>595345b8-cf4e-4ec3-8f42-192fa3f30701</ID>
+  <MasterETag i:nil="true" />
+  <Name>ReferenceToInformation</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/ReferenceToInformation/595345b8-cf4e-4ec3-8f42-192fa3f30701</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <Title>trash-pack-12.jpg</Title>
+  <URL>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Image/72a908a3-8fb7-40ea-a039-c703e8775fe3</URL>
+</ReferenceToInformation>

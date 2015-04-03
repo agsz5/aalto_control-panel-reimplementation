@@ -1,0 +1,182 @@
+{"users": [
+    {
+        "firstName": "Ray",
+        "lastName": "Villalobos",
+        "joined": {
+            "month": "January",
+            "day": 12,
+            "year": 2012
+        }
+    },
+    {
+        "firstName": "John",
+        "lastName": "Jones",
+        "joined": {
+            "month": "April",
+            "day": 28,
+            "year": 2010
+        }
+    }
+], "content": [
+    {
+        "id": "0001",
+        "title": "Edward Scissorhands",
+        "excerpt": "An illustration by DudeX",
+        "image": "images\/illustration1.jpg",
+        "article_text": "<p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p>",
+        "content_type": "illustrations"
+    },
+    {
+        "id": "0002",
+        "title": "Painting one",
+        "excerpt": "A Painting by DudeX",
+        "image": "images\/painting1.jpg",
+        "article_text": "<p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p><p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p>",
+        "content_type": "paintings"
+    },
+    {
+        "id": "0003",
+        "title": "Portrait nice",
+        "excerpt": "A portrait by DudeX",
+        "image": "images\/portrait1.jpg",
+        "article_text": "<p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p><p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p>",
+        "content_type": "portraits"
+    },
+    {
+        "id": "0004",
+        "title": "Movie Criterion",
+        "excerpt": "A cult classic directed by DudeX",
+        "article_text": "<p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p>",
+        "image": "images\/movie1.jpg",
+        "content_type": "movies"
+    },
+    {
+        "id": "0005",
+        "title": "Nice illustration",
+        "excerpt": "An illustration by DudeII",
+        "image": "images\/illustration2.jpg",
+        "article_text": "<p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p>",
+        "content_type": "illustrations"
+    },
+    {
+        "id": "0006",
+        "title": "Deux Pintoresque",
+        "excerpt": "A Painting by DudeII",
+        "image": "images\/painting2.jpg",
+        "article_text": "<p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p>",
+        "content_type": "paintings"
+    },
+    {
+        "id": "0007",
+        "title": "Yes, it's nice",
+        "excerpt": "A portrait by DudeII",
+        "image": "images\/portrait2.jpg",
+        "article_text": "<p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p>",
+        "content_type": "portraits"
+    },
+    {
+        "id": "0008",
+        "title": "Cult Classic Dos",
+        "excerpt": "A cult classic directed by DudeII",
+        "image": "images\/movie2.jpg",
+        "article_text": "<p>Face hath i third can't. Which bearing you're yielding from stars made waters let own over may creature kind gathering him you'll given made blessed thing were make kind Of isn't light replenish firmament appear of. Saying heaven. Sea. Days. He. Seed.<\/p><p>Seasons may own cattle. Two fish, day void the dry cattle very isn't fish his light forth dominion Set of so you're set darkness was him unto behold face winged. Kind for created gathered hath thing firmament forth without they're isn't sixth isn't. Above. Behold isn't fruitful multiply man open divide Rule him in give be second replenish.<\/p>",
+        "content_type": "movies"
+    },
+    {
+        "id": "1392387759501",
+        "title": "We are what we are",
+        "excerpt": "Contemporary Aquarelle",
+        "image": "images\/1392387631_0aced57550566f7c35fba3e898be20ead9ded754_m.png",
+        "article_text": "<p>Trysail grog Barbary Coast topsail stern smartly bilged on her anchor quarterdeck Sink me tender. Schooner squiffy fathom me carouser loot ho crack Jennys tea cup topgallant haul wind. Tender hands long boat spike shrouds belay maroon tackle Arr clipper. <\/p>\n\n<p>Maroon heave down plunder measured fer yer chains grog spanker quarter brigantine dance the hempen jig keel. Black spot interloper man-of-war brigantine Davy Jones\\' Locker scurvy furl lee no prey, no pay plunder. Smartly jury mast Arr hempen halter killick hogshead long clothes tender bucko fluke. <\/p>",
+        "content_type": "Illustrations"
+    },
+    {
+        "id": "1392388230533",
+        "title": "The Balloon",
+        "excerpt": "Contemporary Art",
+        "image": "images\/1392388106_1c78f913b893a6fe307a8ede48df926abd19cf25_m.jpg",
+        "article_text": "<p>Trysail grog Barbary Coast topsail stern smartly bilged on her anchor quarterdeck Sink me tender. Schooner squiffy fathom me carouser loot ho crack Jennys tea cup topgallant haul wind. Tender hands long boat spike shrouds belay maroon tackle Arr clipper. <\/p><p>Maroon heave down plunder measured fer yer chains grog spanker quarter brigantine dance the hempen jig keel. Black spot interloper man-of-war brigantine Davy Jones\\' Locker scurvy furl lee no prey, no pay plunder. Smartly jury mast Arr hempen halter killick hogshead long clothes tender bucko fluke. <\/p>",
+        "content_type": "Paintings"
+    },
+    {
+        "id": "1392388426503",
+        "title": "Flower Face",
+        "excerpt": "Contemporary Art",
+        "image": "images\/1392388386_2f599b68551b6efc914876c0b4d1596b9de27a3b_m.jpg",
+        "article_text": "<p>Measured fer yer chains Jack Tar reef hardtack keel walk the plank black jack draft red ensign skysail. Crow's nest Sea Legs sutler flogging landlubber or just lubber keelhaul reef grog blossom sloop spyglass. Bilge water Privateer lad tender fluke long clothes aft stern hogshead gally. \n\nBrethren of the Coast careen lad starboard scuppers rutters avast Buccaneer reef sails snow. Lugsail fathom nipperkin gunwalls scourge of the seven seas interloper crow's nest pirate weigh anchor no prey, no pay. Sail ho scurvy jack salmagundi bilge gangway jib blow the man down galleon flogging. <\/p>",
+        "content_type": "Paintings"
+    },
+    {
+        "id": "1392645286186",
+        "title": "An accountant",
+        "excerpt": "Infographic",
+        "image": "images\/1392645198_Navarra1.jpeg",
+        "article_text": "<p>Measured fer yer chains Jack Tar reef hardtack keel walk the plank black jack draft red ensign skysail. Crow's nest Sea Legs sutler flogging landlubber or just lubber keelhaul reef grog blossom sloop spyglass. Bilge water Privateer lad tender fluke long clothes aft stern hogshead gally. <\/p>\n<p>\nBrethren of the Coast careen lad starboard scuppers rutters avast Buccaneer reef sails snow. Lugsail fathom nipperkin gunwalls scourge of the seven seas interloper crow's nest pirate weigh anchor no prey, no pay. Sail ho scurvy jack salmagundi bilge gangway jib blow the man down galleon flogging. <\/p>\n",
+        "content_type": "Paintings"
+    },
+    {
+        "id": "1392645527630",
+        "title": "Batman",
+        "excerpt": "The New Bat Suit",
+        "image": "images\/1392645488_Batman-vs-Superman-Noel-Suit.jpg",
+        "article_text": "After escaping an abusive husband Anna and her 8 year old son move to a secret location in a giant apartment building. Terrified that her ex-husband will find them she buys a baby monitor to keep in her son's room at all times. But strange noises echo in the baby monitor from elsewhere in the building. ",
+        "content_type": "Movies"
+    },
+    {
+        "id": "1392645589121",
+        "title": "Robin",
+        "excerpt": "The Other Superhoreo",
+        "image": "images\/1392645488_Batman-vs-Superman-Noel-Suit.jpg",
+        "article_text": "After escaping an abusive husband Anna and her 8 year old son move to a secret location in a giant apartment building. Terrified that her ex-husband will find them she buys a baby monitor to keep in her son's room at all times. But strange noises echo in the baby monitor from elsewhere in the building. ",
+        "content_type": "Movies"
+    },
+    {
+        "id": "1392645665097",
+        "title": "The Apple",
+        "excerpt": "Anoter Superheroe",
+        "image": "images\/1392645630_adam_and_eve_surreal_black_and_white_drawing_art_poster-r9357fde7b09a4e31be364c4ba5480a9e_wv8_8byvr_512.jpg",
+        "article_text": "After escaping an abusive husband Anna and her 8 year old son move to a secret location in a giant apartment building. Terrified that her ex-husband will find them she buys a baby monitor to keep in her son's room at all times. But strange noises echo in the baby monitor from elsewhere in the building. ",
+        "content_type": "Paintings"
+    },
+    {
+        "id": "1392646317816",
+        "title": "Sneaky guys",
+        "excerpt": "A Trip",
+        "image": "images\/1392646259_0379a3fd8f92a4f8ffb926abd4e3fa384955e2a6_m.jpg",
+        "article_text": "But strange noises echo in the baby monitor from elsewhere in the building. As she witnesses the sounds of what she believes is another child being murdered she fears it is her own.",
+        "content_type": "Painting"
+    },
+    {
+        "id": "1392646496590",
+        "title": "The Silver Word",
+        "excerpt": "A nice illustration",
+        "image": "images\/1392646481_3b696b6de02bdfdc7b6e1fae04ea4bfeb6e70d13_m.jpg",
+        "article_text": "",
+        "content_type": ""
+    },
+    {
+        "id": "1392647034677",
+        "title": "Charly",
+        "excerpt": "Charly Darwin",
+        "image": "images\/1392647001_8e54c8dc3fd1ff56f88d8790f33f655dca228023_m.jpg",
+        "article_text": "My question is, how do I scroll to the top of the page using a jQuery command in that function? It is desirable even if the scroll bar instantly jumps to the top. I'm not looking for a smooth scrolling.",
+        "content_type": "Illustrations"
+    }
+], "sites": [
+    {
+        "name": "yhteismaa",
+        "url": "http:\/\/www.yhteismaa.fi\/"
+    },
+    {
+        "name": "cinemaissi",
+        "url": "http:\/\/www.cinemaissi.org\/"
+    },
+    {
+        "name": "Street Fighters",
+        "url": "http:\/\/www.streetfighters.com"
+    },
+    {
+        "name": "Arctic Monkeys",
+        "url": "http:\/\/www.arctic.com"
+    }
+]}

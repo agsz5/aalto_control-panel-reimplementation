@@ -1,0 +1,236 @@
+{"users": [
+    {
+        "firstName": "Ray",
+        "lastName": "Villalobos",
+        "joined": {
+            "month": "January",
+            "day": 12,
+            "year": 2012
+        }
+    },
+    {
+        "firstName": "John",
+        "lastName": "Jones",
+        "joined": {
+            "month": "April",
+            "day": 28,
+            "year": 2010
+        }
+    }
+], "fileRepository": [
+    {
+        "id": "1394724046569",
+        "name": "Uploadedphoto.jpg",
+        "upload_date": "April 1st,2013",
+        "URL": "images\/1394723752_ad58e86c777ab79de635aa54cb8b7d3ad95789dd_m.jpg",
+        "description": null,
+        "extension": "jpg",
+        "local_path": "images\/1394723752_ad58e86c777ab79de635aa54cb8b7d3ad95789dd_m.jpg",
+        "status": null
+    },
+    {
+        "id": "1394724855785",
+        "name": "MyPhoto2.jpg",
+        "upload_date": "March 12, 2014",
+        "URL": "images\/1394724736_tumblr_mymobkVKy21rfltouo7_500-1.jpg",
+        "description": "A modern portrait",
+        "extension": "jpg",
+        "local_path": "images\/1394724736_tumblr_mymobkVKy21rfltouo7_500-1.jpg"
+    },
+    {
+        "id": "f1395757606",
+        "name": "20140114_enhanced.jpeg",
+        "upload_date": 1395757606,
+        "URL": "uploaded\/1395757606_20140114_enhanced.jpeg",
+        "extension": "jpeg",
+        "description": "Use on Valentine's day",
+        "local_path": "uploaded\/1395757606_20140114_enhanced.jpeg",
+        "status": "draft",
+        "size": 675823
+    },
+    {
+        "id": "f1395758967",
+        "name": "Hugo_8bit.jpg",
+        "upload_date": 1395758967,
+        "URL": "uploaded\/1395758967_Hugo_8bit.jpg",
+        "extension": "jpeg",
+        "description": "this is my avatar",
+        "local_path": "uploaded\/1395758967_Hugo_8bit.jpg",
+        "status": "draft",
+        "size": 76236
+    },
+    {
+        "id": "f1395762134",
+        "name": "LondonTiltShiftII.jpg",
+        "upload_date": 1395762134,
+        "URL": "uploaded\/1395762134_LondonTiltShiftII.jpg",
+        "extension": "jpeg",
+        "local_path": "uploaded\/1395762134_LondonTiltShiftII.jpg",
+        "status": "draft",
+        "size": 106894
+    },
+    {
+        "id": "f1395762169",
+        "name": "Create Bootable USB.pdf",
+        "upload_date": 1395762169,
+        "URL": "uploaded\/1395762169_Create Bootable USB.pdf",
+        "extension": "pdf",
+        "local_path": "uploaded\/1395762169_Create Bootable USB.pdf",
+        "status": "draft",
+        "size": 62269
+    },
+    {
+        "id": "f1395765634",
+        "name": "032.jpg",
+        "upload_date": 1395765634,
+        "URL": "uploaded\/1395765634_032.jpg",
+        "extension": "jpeg",
+        "local_path": "uploaded\/1395765634_032.jpg",
+        "status": "draft",
+        "size": 29439
+    },
+    {
+        "id": "f1395766027",
+        "name": "IMG_20140227_172732.jpg",
+        "upload_date": 1395766027,
+        "URL": "uploaded\/1395766027_IMG_20140227_172732.jpg",
+        "extension": "jpeg",
+        "local_path": "uploaded\/1395766027_IMG_20140227_172732.jpg",
+        "status": "draft",
+        "size": 72274
+    },
+    {
+        "id": "f1395766194",
+        "name": "IMG_20140227_172904.jpg",
+        "upload_date": 1395766194,
+        "URL": "uploaded\/1395766194_IMG_20140227_172904.jpg",
+        "extension": "jpeg",
+        "local_path": "uploaded\/1395766194_IMG_20140227_172904.jpg",
+        "status": "draft",
+        "size": 202564
+    },
+    {
+        "id": "f1395766449",
+        "name": "voyons_voir_Slinkachu_Real_Little_People_6.jpeg",
+        "upload_date": 1395766449,
+        "URL": "uploaded\/1395766449_voyons_voir_Slinkachu_Real_Little_People_6.jpeg",
+        "extension": "jpeg",
+        "local_path": "uploaded\/1395766449_voyons_voir_Slinkachu_Real_Little_People_6.jpeg",
+        "status": "draft",
+        "size": 57750
+    },
+    {
+        "id": "f1395766640",
+        "name": "Telephone%20Black%20and%20White.jpeg",
+        "upload_date": 1395766640,
+        "URL": "uploaded\/1395766640_Telephone%20Black%20and%20White.jpeg",
+        "extension": "jpeg",
+        "local_path": "uploaded\/1395766640_Telephone%20Black%20and%20White.jpeg",
+        "status": "draft",
+        "size": 464336
+    },
+    {
+        "id": "f1395766700",
+        "name": "LondonGent.jpeg",
+        "upload_date": 1395766700,
+        "URL": "uploaded\/1395766700_LondonGent.jpeg",
+        "extension": "jpeg",
+        "local_path": "uploaded\/1395766700_LondonGent.jpeg",
+        "status": "draft",
+        "size": 346106
+    },
+    {
+        "id": "f1395768751",
+        "name": "8527201_1.jpeg",
+        "upload_date": 1395768751,
+        "URL": "uploaded\/1395768751_8527201_1.jpeg",
+        "extension": "jpeg",
+        "local_path": "uploaded\/1395768751_8527201_1.jpeg",
+        "status": "draft",
+        "size": 164259
+    },
+    {
+        "id": "f1395769267",
+        "name": "captain-america-supera-harry-potter-cartelera.jpeg",
+        "upload_date": 1395769267,
+        "URL": "uploaded\/1395769267_captain-america-supera-harry-potter-cartelera.jpeg",
+        "extension": "jpeg",
+        "local_path": "uploaded\/1395769267_captain-america-supera-harry-potter-cartelera.jpeg",
+        "status": "draft",
+        "size": 50615
+    },
+    {
+        "id": "f1395769487",
+        "name": "iron-man-hot-toys-exhibition-17.jpeg",
+        "upload_date": 1395769487,
+        "URL": "uploaded\/1395769487_iron-man-hot-toys-exhibition-17.jpeg",
+        "extension": "jpeg",
+        "local_path": "uploaded\/1395769487_iron-man-hot-toys-exhibition-17.jpeg",
+        "status": "draft",
+        "size": 65246
+    },
+    {
+        "id": "f1395770437",
+        "name": "220-1.jpeg",
+        "upload_date": 1395770437,
+        "URL": "uploaded\/1395770437_220-1.jpeg",
+        "extension": "jpeg",
+        "local_path": "uploaded\/1395770437_220-1.jpeg",
+        "status": "draft",
+        "size": 47906
+    },
+    {
+        "id": "f1395770730",
+        "name": "Brian_Bolland.jpeg",
+        "upload_date": 1395770730,
+        "URL": "uploaded\/1395770730_Brian_Bolland.jpeg",
+        "extension": "jpeg",
+        "local_path": "uploaded\/1395770730_Brian_Bolland.jpeg",
+        "status": "draft",
+        "size": 87776
+    },
+    {
+        "id": "f1395771184",
+        "name": "Arkham-City-header.jpeg",
+        "upload_date": 1395771184,
+        "URL": "uploaded\/1395771184_Arkham-City-header.jpeg",
+        "extension": "jpeg",
+        "local_path": "uploaded\/1395771184_Arkham-City-header.jpeg",
+        "status": "complete",
+        "size": 39051,
+        "description": "Batman of course"
+    }
+], "sites": [
+    {
+        "name": "Aalto Bowling",
+        "url": "http:\/\/www.altobowling.com"
+    },
+    {
+        "name": "Third World Savers",
+        "url": "http:\/\/www.hopeforall.org"
+    }
+], "CollectionContent": [
+    {
+        "Title": "illustrations",
+        "ParentCategory": null,
+        "ParentCategoryID": null
+    },
+    {
+        "Title": "portraits",
+        "ParentCategory": null,
+        "ParentCategoryID": null
+    }
+], "UploadedPhotos": [
+    {
+        "path": "images\/1394719918_698423c9e584537549dd152a3a1364af4ae66aec_m.jpg",
+        "originalWidth": 384,
+        "originalHeight": 480,
+        "calculatedPhotoHeight": 263
+    },
+    {
+        "path": "images\/1394723752_ad58e86c777ab79de635aa54cb8b7d3ad95789dd_m.jpg",
+        "originalWidth": 480,
+        "originalHeight": 480,
+        "calculatedPhotoHeight": 210
+    }
+]}

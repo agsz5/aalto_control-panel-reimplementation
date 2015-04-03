@@ -1,0 +1,21 @@
+﻿<Comment xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <CommentText>Here is my comment</CommentText>
+  <Created>2014-07-31T08:12:54.7952963Z</Created>
+  <GeneratedByProcessID i:nil="true" />
+  <ID>b8ba5f01-f608-4f3e-b82f-6af6471a8333</ID>
+  <LastAuthorAccountID>71253f75-fb1a-44f2-9689-fb7c477085a6</LastAuthorAccountID>
+  <LastAuthorEmail>r.kiviranta@gmail.com</LastAuthorEmail>
+  <LastAuthorName>Roope Kiviranta</LastAuthorName>
+  <LastModified>2014-07-31T08:12:55.2972541Z</LastModified>
+  <MasterETag i:nil="true" />
+  <Name>Comment</Name>
+  <OriginalAuthorAccountID>71253f75-fb1a-44f2-9689-fb7c477085a6</OriginalAuthorAccountID>
+  <OriginalAuthorEmail>r.kiviranta@gmail.com</OriginalAuthorEmail>
+  <OriginalAuthorName>Roope Kiviranta</OriginalAuthorName>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Comment/b8ba5f01-f608-4f3e-b82f-6af6471a8333</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <TargetObjectDomain>AaltoGlobalImpact.OIP</TargetObjectDomain>
+  <TargetObjectID>0340d436-3e2b-4db6-a24f-8eca0ce9e42d</TargetObjectID>
+  <TargetObjectName>TextContent</TargetObjectName>
+</Comment>

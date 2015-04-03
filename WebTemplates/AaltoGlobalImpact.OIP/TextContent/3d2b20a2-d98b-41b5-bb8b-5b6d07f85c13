@@ -1,0 +1,69 @@
+﻿<TextContent xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <Author>Petri Businessman</Author>
+  <Body i:nil="true" />
+  <Categories>
+    <CollectionContent>
+      <Category>
+        <CategoryName>catBusinessSpecial</CategoryName>
+        <Excerpt i:nil="true" />
+        <GeneratedByProcessID i:nil="true" />
+        <ID>a15b4bb7-6e42-4b44-8cbc-e0ddac598efc</ID>
+        <ImageData i:nil="true" />
+        <MasterETag i:nil="true" />
+        <Name>Category</Name>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <ParentCategory i:nil="true" />
+        <ParentCategoryID i:nil="true" />
+        <ReferenceToInformation i:nil="true" />
+        <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/a15b4bb7-6e42-4b44-8cbc-e0ddac598efc</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        <Title>Business Special</Title>
+      </Category>
+    </CollectionContent>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>1f56f149-9010-48fc-9ad5-49caee37b9f3</ID>
+    <IsCollectionFiltered>false</IsCollectionFiltered>
+    <MasterETag i:nil="true" />
+    <Name>CategoryCollection</Name>
+    <OrderFilterIDList xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>AaltoGlobalImpact.OIP/CategoryCollection/1f56f149-9010-48fc-9ad5-49caee37b9f3</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </Categories>
+  <Excerpt>Cycles are the key</Excerpt>
+  <GeneratedByProcessID i:nil="true" />
+  <ID>3d2b20a2-d98b-41b5-bb8b-5b6d07f85c13</ID>
+  <IFrameSources i:nil="true" />
+  <ImageData>
+    <AdditionalFormatFileExt>.png</AdditionalFormatFileExt>
+    <ContentLength>1738</ContentLength>
+    <FileExt>.png</FileExt>
+    <GeneratedByProcessID i:nil="true" />
+    <ID>0c26934b-fda8-4fda-8670-fece6c289c5b</ID>
+    <MasterETag i:nil="true" />
+    <Name>MediaContent</Name>
+    <OriginalFileName i:nil="true" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/MediaContent/0c26934b-fda8-4fda-8670-fece6c289c5b.png</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </ImageData>
+  <Locations i:nil="true" />
+  <MasterETag i:nil="true" />
+  <Name>TextContent</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <Published>2014-08-12T11:40:01.451+00:00</Published>
+  <RawHtmlContent>&lt;p&gt;&lt;p&gt;A business insider who previously has been working for Goldman Sachs is by no means a &lt;em&gt;“nobody”&lt;/em&gt;
+ on the global markets, and the fact that his statement caused a stir 
+was less surprising than the surprise non-insiders got when they heard 
+the news about Germany´s gold. In fact, nsnbc´s initial report was doubted by many but was, as it turned out right&lt;em&gt; “in the money”,&lt;/em&gt; one could, so to speak, take our report to the bank.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://nsnbc.me/wp-content/uploads/2013/07/1916MomusPinocchio.jpg"&gt;&lt;img&gt;&lt;/a&gt;&lt;/strong&gt;German Federal Bank. A Real Embarrassment and Non-Existent Transparency.
+ Not surprisingly either, is the fact that the situation became an 
+embarrassment for the German Federal Bank, Deutsche Bundesbank (DB).&lt;/p&gt;
+&lt;p&gt;A DB speaker said, that the Deutsche Bundesbank told the German 
+financial publication “Deutsche Wirtschafts Nachrichten” (German Market News), that the DB does not want to comment on the statement and referred to the&lt;em&gt; full transparency&lt;/em&gt; which it had provided about the German gold reserves in January 2013. &lt;em&gt;“The situation”&lt;/em&gt; said the DB spokesperson, &lt;em&gt;“has remained unchanged since then”&lt;/em&gt;. The statement however, was only 50 % true.&amp;nbsp;The true 50 % of the statement is, that the &lt;b&gt;Deutsche Bundesbank does not want to comment&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;/p&gt;</RawHtmlContent>
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/TextContent/3d2b20a2-d98b-41b5-bb8b-5b6d07f85c13</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <SortOrderNumber>0</SortOrderNumber>
+  <SubTitle i:nil="true" />
+  <Title>Business Article III</Title>
+</TextContent>

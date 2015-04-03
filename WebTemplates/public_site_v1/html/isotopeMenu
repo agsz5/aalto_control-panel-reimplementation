@@ -1,0 +1,483 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGI | Welcome</title>
+    <link rel="stylesheet" href="../assets/css/foundation.orange.css" />
+    <link rel="stylesheet" href="../assets/css/style.orange.css">
+    <link rel="stylesheet" type="text/css" media="all" href="../assets/css/whhg.css" />
+    <script src="../assets/js/modernizr.js"></script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-50665233-1', 'aaltoglobalimpact.org');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+<div class="aaltoStickyBar contain-to-grid sticky topbar">
+    <div class="row vAlignMiddle topbar">
+        <div class="small-12 medium-3 large-3 columns vAlignMiddle topbar" id="logoMainDivHolder"><a href="#" id="stickyBarLogo"><div id="logo"><img src="../assets/images/logo.png"></div></a></div>
+        <div class="small-12 medium-6 large-6 columns topbar">
+            <div class="portfolioFilter" id="portfolioFilterDivContainer">
+            </div>
+        </div>
+        <div class="small-3 medium-3 large-3 columns show-for-medium-up topbar">
+            <ul class="inline-list right topbar" style="line-height: 45px;padding:0;margin:0;">
+                <li><a href="http://www.aalto.fi" target="_blank" class="small"><span class="discreetLinks">Aalto.fi</span></a></li>
+                <li><a href="#" data-dropdown="drop1" id="schoolsLink" class="topbar small"><span class="topbar discreetLinks">Schools</span></a>
+                    <ul id="drop1" class="f-dropdown" data-dropdown-content style="overflow:visible !important;">
+                        <li><a class="discreetLinks" target="_blank" href="http://arts.aalto.fi/en/">School of Arts, Design and Architecture</a></li>
+                        <li><a class="discreetLinks" target="_blank" href="http://business.aalto.fi/en/">School of Business</a></li>
+                        <li><a class="discreetLinks" target="_blank" href="http://chem.aalto.fi/en/">School of Chemical Technology </a></li>
+                        <li><a class="discreetLinks" target="_blank" href="http://elec.aalto.fi/en/">School of Electrical Engineering</a></li>
+                        <li><a class="discreetLinks" target="_blank" href="http://eng.aalto.fi/en/">School of Engineering</a></li>
+                        <li><a class="discreetLinks" target="_blank" style="border: none;" href="http://sci.aalto.fi/en/">School of Science</a></li>
+                    </ul>
+                    <!--<a href="#" class="small" id="schoolsButton"><span class="discreetLinks">Schools</span></a></li>-->
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="row" id="topbarDivSeparator"></div>
+
+<div class="row" id="isotope_content_row">
+    <!-- +++Isotope content starts +++++++++++++++++++++++++++++++++++++++++++++ -->
+    <div class="large-12 columns issuuContentContainer" style="padding: 0 !important;">
+        <div id="contentDivContainer" class="contentDivContainerIsotope"></div>
+    </div>
+    <!-- +++Isotope content ends +++++++++++++++++++++++++++++++++++++++++++++ -->
+</div>
+
+<div id="aboutPage"></div>
+
+<script src="../assets/js/jquery.js"></script>
+<script src="../assets/js/foundation.min.js"></script>
+<!--<script src="js/foundation/foundation.js"></script>-->
+<script src="../assets/js/foundation/foundation.topbar.js"></script>
+<script src="../assets/js/jquery.isotope.js" type="text/javascript"></script>
+<script src="../assets/js/jquery.form.min.js"></script>
+<script src="../assets/js/jquery.htmlClean.min.js "></script>
+<script src="../assets/lib/markdowndeep/MarkdownDeepLib.min.js"></script>
+<script src="../assets/js/purl.js"></script>
+<script>
+    $(document).foundation(
+            {
+                reveal : {
+                    animation: 'fadeAndPop',
+                    animation_speed: 250,
+                    close_on_background_click: false
+                }
+
+            }
+    );
+</script>
+<script>
+var getCategoriesOrderedAndFiltered = function(categoryCollection)
+{
+    var categories = categoryCollection.CollectionContent;
+    var orderFilterIDList = categoryCollection.OrderFilterIDList;
+    var orderedCategories = [];
+    for(i = 0; i < orderFilterIDList.length; i++)
+    {
+        var currID = orderFilterIDList[i];
+        var result = $.grep(categories, function(candidate) { return candidate.ID == currID });
+        if(result.length == 0)
+            continue;
+        var cat = result[0];
+        orderedCategories.push(cat);
+    }
+    return orderedCategories;
+};
+
+var getRootCategories = function(categoryCollection)
+{
+    var orderedCategories = getCategoriesOrderedAndFiltered(categoryCollection);
+    var rootCategories = $.grep(orderedCategories, function(candidate) { return !candidate.ParentCategoryID; });
+    return rootCategories;
+};
+
+var getCategoriesBasedByNamesOrIDs = function(categoryCollection, nameShortTextCollection, categoryIDList)
+{
+    var orderedCategories = getCategoriesOrderedAndFiltered(categoryCollection);
+    var filteredCategories;
+    if(categoryIDList)
+    {
+        var categoryIDArray = categoryIDList.split(",");
+        filteredCategories = $.grep(orderedCategories,
+                function(candidate) {
+                    var foundList = $.grep(categoryIDArray, function(idCandidate) {
+                        return idCandidate === candidate.ID;
+                    });
+                    return foundList.length > 0;
+                });
+    } else {
+        filteredCategories = $.grep(orderedCategories,
+                function(candidate) {
+                    var foundList = $.grep(nameShortTextCollection.CollectionContent, function(nameCandidate) {
+                        return nameCandidate.Content == candidate.CategoryName;
+                    });
+                    return foundList.length > 0;
+                });
+    }
+    return filteredCategories;
+};
+
+
+var getCardContentFromNode = function (item, imageSizeString) {
+    var authors = item.Authors;
+    var authorText = "";
+    if(authors) {
+        var authorNames = $.map(authors.CollectionContent, function(authorContent) {
+            return authorContent.Content;
+        });
+        authorText = authorNames.join(", ");
+    }
+    var categories = item.Categories;
+    var mainCategory = item.Categories[0].Title;
+    var imageUrl = item.ImageBaseUrl
+            ? item.ImageBaseUrl + "_" + imageSizeString + "x" + imageSizeString + "_crop" + item.ImageExt
+            : null;
+    return { "id": item.ID, "title": item.Title, "excerpt": item.Excerpt,
+        "article_text": item.BodyRendered,
+        "image": imageUrl,
+        "itemUrl": "../" + item.ActualContentUrl + ".json",
+        "author": authorText,
+        "categories": categories,
+        "mainCategory": mainCategory,
+        "published": item.TimestampText
+    };
+};
+
+$(document).ready(function(){
+    $.ajaxSetup({cache: true});
+
+    getAndPopulate_Isotope_Filter_Categories();
+    $.when(get_content()).then(function(){start_isotope();setInterval(reLayout_isotope, 1500);console.log( "Isotope fired after getting content, succeed" );}).fail(function(){console.log( "something went wrong with getting the content" );});
+    $("#contentDivContainer").on('mouseover',reLayout_isotope);
+    $("#contentDivContainer").delegate(".cardClickableWrapper",{ click: viewContent } );
+    $("#closeViewContentModal").click(function () { $('#viewContentModal').foundation('reveal', 'close');});
+    $("#schoolsButton").click(function () { $(document).foundation('joyride', 'start');});
+
+    function getAndPopulate_Isotope_Filter_Categories ()
+    {
+        var categories="<a href='#' data-filter=':not(.About)' class='current'>All</a>";
+        categories+="<a href='#' data-filter='.News'>News</a>";
+        categories+="<a href='#' data-filter='.Projects'>Projects</a>";
+        categories+="<a href='#' data-filter='.Events'>Events</a>";
+        categories+="<a href='#' data-filter='.Stories'>Stories</a>";
+        categories+="<a href='about.html' data-filter='.About'>About</a>";
+        /*console.log("Entered 'getAndPopulate_Isotope_Filter_Categories' Function.");
+         var multihandlerResponse = $.ajax({
+         url: "multihandler.php",
+         type: "POST",
+         data: ({action: 'getMainCategories'}),
+         async: false
+         }).responseText;*/
+
+        $("#portfolioFilterDivContainer").empty();
+        $("#portfolioFilterDivContainer").append(categories);
+    }
+
+    function get_content(){
+        $("#contentDivContainer").empty();
+        return $.getJSON('../../AaltoGlobalImpact.OIP/NodeSummaryContainer/default.json', function(nodeSummaryContainer) {
+            nodeSummaryContainer.RootCategories = getRootCategories(nodeSummaryContainer.NodeSourceCategories);
+            for(var nodeIX = 0; nodeIX < nodeSummaryContainer.Nodes.CollectionContent.length; nodeIX++)
+            {
+                var nodeObj = nodeSummaryContainer.Nodes.CollectionContent[nodeIX];
+                nodeObj.Categories = getCategoriesBasedByNamesOrIDs(nodeSummaryContainer.NodeSourceCategories, nodeObj.CategoryNames, nodeObj.CategoryIDList);
+            }
+
+
+            var content = nodeSummaryContainer;
+            var contentData =
+            {
+                "CollectionContent": $.map(content.Nodes.CollectionContent, function (item) {
+                    /*var rendered = markdown.Transform(item.Excerpt.replaceAll("javascript:", ""));
+                     item.ExcerptRendered = rendered;*/
+                    return getCardContentFromNode(item, "256");
+                })
+            };
+
+
+            var user_content="";
+
+            for (var i in contentData.CollectionContent) {
+                //noinspection JSUnfilteredForInLoop
+                //Check if title is empty... if it is then it is just a category definition so it must be ignored.
+                var currItem = contentData.CollectionContent[i];
+
+
+                var currentMainCategory = currItem.mainCategory;
+
+                /*
+                 if(currItem.Categories == false || currItem.Categories.CollectionContent == false)
+                 currentMainCategory="NEWS";
+                 else
+                 currentMainCategory=contentData.CollectionContent[i].Categories.CollectionContent[0].Title;
+                 */
+                user_content+="<div class='content-card "+currentMainCategory+"' id='contentCardDataId-"+currItem.id+"' data-itemurl='" + currItem.itemUrl + "'>";
+
+                if (!currItem.image)
+                {
+                    var currentImage= "images/preview.jpg";
+                }
+
+                else
+                {
+                    /*var imgID = contentData.CollectionContent[i].ImageData.ID;
+                     var imgExtension = contentData.CollectionContent[i].ImageData.AdditionalFormatFileExt;
+                     var currentImage= "../../AaltoGlobalImpact.OIP/MediaContent/"+imgID+"_320x240_crop"+imgExtension;*/
+                    currentImage = currItem.image;
+                }
+
+                user_content+="<a href='#' class='cardClickableWrapper'><img src='"+currentImage+"' alt='image' id='contentCardImage-dataID-"+currItem.id+"'/></a>";
+                user_content+="<div class='content-card-fancyTag'><div class='fancyTagDiv'>"+currentMainCategory+"</div></div>";
+                user_content+="<a href='#' class='cardClickableWrapper'><div class='content-card-title' style='font-size:95%; font-weight:bold; color:#000000;' id='contentCardTitle-dataID-"+currItem.id+"'>"+currItem.title+"</div></a>";
+                user_content+="<a href='#' class='cardClickableWrapper'><div class='content-card-excerpt content-card-spanExcerpt' id='contentCardExcerpt-dataID-"+currItem.id+"'>"+currItem.excerpt+"</div></a>";
+                user_content+="<div class='content-card-line'><hr></div>";
+                if (!currItem.author)
+                    var currentAuthor="Aalto Global Impact";
+                else
+                    var currentAuthor=currItem.author;
+                user_content+="<div class='content-card-author' id='contentCardAuthor-dataID-"+currItem.id+"'><i class='icon-pencil content-card-spanAuthor'></i>&nbsp;<span class='content-card-spanAuthor'>"+currentAuthor+"</span></div>";
+                /*
+                 var recordedJsonDate = contentData.CollectionContent[i].Published;
+                 var pattern = /[0-9]+/; //to find the number within the string, first occurrence.
+                 recordedJsonDate = (recordedJsonDate.match(pattern))/1000;
+                 var extractedDate= new Date(1000*recordedJsonDate);
+                 //extractedDate = extractedDate.toLocaleString();
+                 var cardDate = extractedDate.getDate()+".";
+                 cardDate+= extractedDate.getMonth()+".";
+                 cardDate+= extractedDate.getFullYear();
+                 */
+                cardDate = currItem.published;
+                user_content+="<div class='content-card-excerpt' id='contentCardDate-dataID-"+currItem.id+"'><i class='icon-calendaralt-cronjobs content-card-spanAuthor'></i></i>&nbsp;<span class='content-card-spanAuthor'>"+cardDate+"</span></div>";
+
+                /*user_content+="</a>";*/
+
+                user_content+="</div>";
+
+            }//ends for loop
+            $("#contentDivContainer").append(user_content);
+        })
+    }
+
+    function start_isotope(){
+        //var $container = $('.portfolioContainer');
+        var $container = $("#contentDivContainer");
+        $container.isotope({
+            filter: ':not(.About)',
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+        });
+
+        $('.portfolioFilter a').click(function(){
+
+            console.log ("Entered the Isotope Filter click event handler.")
+            $('.portfolioFilter .current').removeClass('current');
+            $(this).addClass('current');
+
+            var selector = $(this).attr('data-filter');
+
+            if (selector==".About") {
+                /*$("#photoBannerContainerRow").removeClass("show-for-medium-up");
+                 $("#photoBannerContainerRow").removeClass("photoBannerContainerRow");
+                 $("#photoBannerContainerRow").addClass("hide");
+                 $("#isotope_content_row").addClass("hide");
+                 $("#aboutPage").removeClass("hide");
+                 $("body").css("background-color", "#f0f0f2");
+                 $("#aboutPage").load("about.html");
+                 $(document).foundation('orbit');*/
+                window.location.href = "about.html";
+            }
+            else
+            {
+                /*$("#photoBannerContainerRow").addClass("show-for-medium-up");
+                 $("#photoBannerContainerRow").addClass("photoBannerContainerRow");
+                 $("#aboutPage").addClass("hide");
+                 $("body").css("background-color", "");
+                 $("#photoBannerContainerRow").removeClass("hide");
+                 $("#isotope_content_row").removeClass("hide");*/
+                $container.isotope({
+                    filter: selector,
+                    animationOptions: {
+                        duration: 750,
+                        easing: 'linear',
+                        queue: false }  });
+            } //closes else
+            return false;
+        });
+    }//closes function Start_isotope
+
+    function reLayout_isotope() {
+        var $container = $('#contentDivContainer');
+        $container.isotope( 'reLayout');
+    }
+
+    String.prototype.replaceAll = function(strReplace, strWith) {
+        var reg = new RegExp(strReplace, 'ig');
+        return this.replace(reg, strWith);
+    };
+
+    function openArticle(articleType, articleID) {
+        var articleUrl;
+        if(articleType == "text")
+            articleUrl = "../../AaltoGlobalImpact.OIP/TextContent/" + articleID + ".json";
+        openArticleUrl(articleUrl);
+    }
+
+    function openArticleUrl(articleUrl) {
+        $.getJSON(articleUrl, function(textContent) {
+            var iFrameList = [];
+            if(textContent.IFrameSources) {
+                var nonTaggedList = textContent.IFrameSources.split('\n');
+                $.each(nonTaggedList, function(index, value) {
+                    var taggedVersion = "<iframe " + value + "></iframe>";
+                    iFrameList.push(taggedVersion);
+                });
+            }
+            var contentData = { "CollectionContent": [ textContent ] };
+            var queryValue="";
+            markdown = new MarkdownDeep.Markdown();
+            markdown.SafeMode = true;
+            var i = 0;
+
+            queryValue=contentData.CollectionContent[i].Title;
+            $("#viewContentModal-title").empty();
+            $('#viewContentModal-title').append(queryValue);
+
+            queryValue="<p>"+contentData.CollectionContent[i].Excerpt+"</p>";
+            $("#viewContentModal-excerpt").empty();
+            $('#viewContentModal-excerpt').append(queryValue);
+
+            //var currentMainCategory=contentData.CollectionContent[i].Categories.CollectionContent[0].Title;
+            var currentMainCategory="News";
+
+            //queryValue=contentData.CollectionContent[i].content_type;
+            $("#viewContentModal-categories").empty();
+            $('#viewContentModal-categories').append(currentMainCategory);
+
+            var rawbody;
+            rawbody = contentData.CollectionContent[i].RawHtmlContent;
+            if(rawbody) {
+                //$.htmlClean.defaults.allowedTags = ["p", "em"];
+                //$.htmlClean.defaults.replace = [["div","br"], "p"];
+                /*queryValue=clean(rawbody,
+                 {
+                 replace:[["div", "br"], "p"],
+                 allowedTags:["p","em","strong","a","img","ol","ul","li"]
+                 });*/
+                /*queryValue = clean(rawbody);*/
+                rawbody=rawbody.replace(new RegExp("div", "g"), 'p');
+                rawbody=rawbody.replace(new RegExp("<span>", "g"), '');
+                rawbody=rawbody.replace(new RegExp("</span>", "g"), '');
+                /*rawbody=rawbody.replace(new RegExp("<br/>", "g"), '<p></p>');
+                 rawbody=rawbody.replace(new RegExp("<br>", "g"), '<p></p>');
+                 rawbody=rawbody.replace(new RegExp("</br>", "g"), '<p></p>');*/
+
+                queryValue=$.htmlClean(rawbody, {format:true});
+            } else {
+                var bodyRendered = markdown.Transform(contentData.CollectionContent[i].Body.replaceAll("javascript:", ""));
+                rawbody = bodyRendered;
+                queryValue = rawbody;
+            }
+
+
+            //queryValue=$.htmlClean(rawbody, {format:false});
+
+            //queryValue=contentData.CollectionContent[i].Body;
+            $("#viewContentModal-content").empty();
+            $('#viewContentModal-content').append(queryValue);
+
+            var lastSlashIndex = articleUrl.lastIndexOf("/");
+            var lastExtIndex = articleUrl.lastIndexOf(".json");
+            var articleIDFromArticleUrl = articleUrl.substring(lastSlashIndex + 1, lastExtIndex);
+            var currentURL = "http://www.aaltoglobalimpact.org/html/index.html?type=text&id="+ articleIDFromArticleUrl;
+            $("#articleShareURLinput").attr("placeholder",currentURL);
+            $("#articleShareURLinput").val(currentURL);
+            /*$("#articleShareURLinput").attr("disabled", true);*/
+
+            if ((contentData.CollectionContent[i].Author===null)||(!contentData.CollectionContent[i].Author) )
+                var currentAuthor="Aalto Global Impact";
+            else
+                var currentAuthor=contentData.CollectionContent[i].Author;
+            queryValue=contentData.CollectionContent[i].Author;
+            $("#viewContentModal-Author").empty();
+            $('#viewContentModal-Author').append(currentAuthor);
+
+            var recordedJsonDate = contentData.CollectionContent[i].Published;
+            var pattern = /[0-9]+/; //to find the number within the string, first occurrence.
+            recordedJsonDate = (recordedJsonDate.match(pattern))/1000;
+            var extractedDate= new Date(1000*recordedJsonDate);
+            //extractedDate = extractedDate.toLocaleString();
+            var cardDate = extractedDate.getDate()+".";
+            cardDate+= extractedDate.getMonth()+".";
+            cardDate+= extractedDate.getFullYear();
+
+            $("#viewContentModal-Date").empty();
+            $('#viewContentModal-Date').append(cardDate );
+
+            //send the correspondent image to the placeholder, but clean its containing div first
+            if (contentData.CollectionContent[i].ImageData===null)
+            {
+                var currentImage= "images/preview.jpg";
+            }
+
+            else
+            {
+                var imgID = contentData.CollectionContent[i].ImageData.ID;
+                var imgExtension = contentData.CollectionContent[i].ImageData.AdditionalFormatFileExt;
+                var currentImage= "../../AaltoGlobalImpact.OIP/MediaContent/"+imgID+"_320x240_crop"+imgExtension;
+            }
+            $("#viewContentModal-image").empty(); //clean the image Placeholder in the form
+            queryValue = "<img src='"+currentImage+"' style='width:auto;height:auto;max-width:350;max-height:450px;margin-left:auto;margin-right:auto;'>";
+            $("#viewContentModal-image").append(queryValue);
+
+
+            $("#viewContentModal-iframes").empty();
+            $.each(iFrameList, function(index, value) {
+                $("#viewContentModal-iframes").append(value);
+            });
+
+
+            $('#viewContentModal').foundation('reveal', 'open');
+        }) //ends getJson
+    }
+
+    function viewContent(editEvent) {
+        console.log ("Entered 'viewContent' function. Triggered ID: "+editEvent.target.id);
+        editEvent.preventDefault();
+        var currentId=editEvent.target.id;
+        var currentId2 = $('#'+currentId).parents(".content-card").attr('id');
+        var clickedEditID= currentId2.replace("contentCardDataId-", '');
+        var articleUrl = $('#'+currentId).parents(".content-card").data('itemurl');
+        openArticleUrl(articleUrl);
+    }//Ends Function ViewContent
+
+    $(function () {
+        var openArticleType = $.url().param("type");
+        var openArticleID = $.url().param("id");
+        if(openArticleType && openArticleID) {
+            window.history.pushState("string", "Aalto Global Impact", "index.html");
+            openArticle(openArticleType, openArticleID);
+        }
+    });
+
+
+
+});
+</script>
+</body>
+</html>

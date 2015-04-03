@@ -1,0 +1,16 @@
+﻿<Category xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <CategoryName>catSchool</CategoryName>
+  <Excerpt i:nil="true" />
+  <GeneratedByProcessID i:nil="true" />
+  <ID>37a71d72-7ae9-4220-96cd-36f59ec9c3fa</ID>
+  <ImageData i:nil="true" />
+  <MasterETag i:nil="true" />
+  <Name>Category</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <ParentCategory i:nil="true" />
+  <ParentCategoryID i:nil="true" />
+  <ReferenceToInformation i:nil="true" />
+  <RelativeLocation>grp/23246887-1ee1-4211-854f-d0f760276d59/AaltoGlobalImpact.OIP/Category/37a71d72-7ae9-4220-96cd-36f59ec9c3fa</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  <Title>School</Title>
+</Category>
