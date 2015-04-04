@@ -37,7 +37,7 @@ aaltoglobalimpact.org, article viewing (before)
 
 aaltoglobalimpact.org (after)
 -----
-The layout was reworked, the colors adjusted, and the content-card system reimplemented. Cleaner, more usable and responsive.
+The layout was reworked, and the content-card system reimplemented. Cleaner, more usable and responsive.
 ![agiafter](images/publicnew.png)
 
 aaltoglobalimpact.org, article viewing (after)
