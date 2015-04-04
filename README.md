@@ -15,12 +15,12 @@ Old control panel, editing mode
 
 New control panel
 -----
-An off-canvas navigation was agreed upon, in order to allow the users more working space. The "news" and "events" ections were implemented, as well as a "commenting" capability (within the content-card of each article)
+An off-canvas navigation was agreed upon, in order to allow the users more working space. The "news" and "events" sections were implemented, as well as a "commenting" capability (within the content-card of each article)
 ![cpnew](images/newcp.png)
 
 New control panel (off-canvas options)
 -----
-The CMS module of the control panel was incorporated off-canvas. The "Manage Pages" sections gives you access to the layout, where you can perform the necessary adjustments. Also the File Upload module was implemented here. 
+The CMS module of the control panel was incorporated off-canvas. The "Manage Pages" section gives you access to the layout, where you can perform the necessary adjustments. Also the File Upload module was implemented here. 
 ![cpoffcanvas](images/newcpffcanvas.png)
 
 New control panel, content editing mode
